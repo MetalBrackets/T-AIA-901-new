@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, request
 import folium
+import speech_recognition as sr
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/api/v1/travel', methods=['GET'])
@@ -50,10 +53,21 @@ def get_travel():
 
 
 @app.route('/api/v1/audio', methods=['POST'])
-def audio():
-    data = request.get_json()
-    audio = data['audio']
-    return jsonify({'audio': audio}), 200
+def speech_to_text():
+    if 'audio' not in request.files:
+        return jsonify({'error': 'No audio file'}), 400
+
+    audio_file = request.files['audio']
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(audio_file) as source:
+        audio = recognizer.record(source)
+    try:
+        text = recognizer.recognize_google(audio, language='fr-FR')
+        return jsonify({'text': text}), 200
+    except sr.UnknownValueError:
+        return jsonify({'error': 'Could not understand audio'}), 400
+    except sr.RequestError as e:
+        return jsonify({'error': str(e)}), 500
 
 
 if __name__ == '__main__':
