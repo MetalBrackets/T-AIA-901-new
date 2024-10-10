@@ -1,0 +1,830 @@
+[
+  {
+    "tokens": ["montrer", "les", "trains", "de", "Gargan", "à", "Valdahon", "Camp", "Militaire", "entre", "18h", "et", "20h", "le", "vendredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "sont", "disponibles", "de", "Montbard", "à", "Saint-Romain-le-Puy", "jeudi", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "demain", "de", "Saint-Jodard", "à", "Champigny", "sur", "Yonne"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Montlouis-sur-Loire", "à", "Maroeuil", "jeudi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["tous", "les", "trains", "de", "Nanteuil-le-Haudouin", "à", "Vigneux-sur-Seine"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Villeneuve-sur-Yonne", "à", "Bougival"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Neufchâteau", "à", "Graffenwald", "en", "passant", "par", "Bollwiller"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "train", "le", "moins", "cher", "de", "Beslé", "à", "Boulouris", "sur", "Mer"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["tous", "les", "trains", "de", "Annemasse", "à", "Mailly-la-Ville", "partent", "après", "18h00", "et", "avant", "19h00"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'ai", "besoin", "d'informations", "sur", "les", "trains", "pour", "mardi", "au", "départ", "de", "Perpignan", "pour", "Ussel"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["s'il", "vous", "plaît", "donnez-moi", "les", "trains", "de", "Vierzon-Forges", "à", "Houdan", "le", "jeudi", "de", "la", "semaine", "prochaine"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'aimerais", "voyager", "de", "Belvezet", "à", "Villiers-Neauphle-Pontchartrain", "avec", "la", "SNCF"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Louvres", "à", "St-Vincent-le-Château"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["veuillez", "lister", "tous", "les", "trains", "de", "première", "classe", "de", "La", "Rivière-Drugeon", "à", "Menars"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["j'aimerais", "réserver", "un", "train", "d'Ablon-sur-Seine", "à", "Lardenne"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montrez-moi", "tous", "les", "trains", "de", "Condat-le-Lardin", "à", "Gilly-sur-Loire", "le", "mercredi", "de", "la", "semaine", "prochaine"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'ai", "également", "besoin", "d'un", "train", "de", "Stephansfeld", "à", "Freinville", "Sevran", "pour", "arriver", "à", "midi", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["veuillez", "trouver", "un", "train", "sur", "Surdon", "à", "La", "Suze-sur-Sarthe", "et", "donnez-moi", "les", "numéros", "de", "train"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "de", "Tullins-Fures", "à", "Villabé"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "sont", "les", "trains", "de", "Saint-Louis", "à", "Burbank", "dimanche", "soir"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["j'aimerais", "organiser", "un", "train", "de", "Frynaudour", "à", "Ur-les-Escaldes"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Teillé", "Vif"],
+    "labels": ["B-DEP", "B-ARR"]
+  },
+  {
+    "tokens": ["Saint-Lô", "Tassin"],
+    "labels": ["B-DEP", "B-ARR"]
+  },
+  {
+    "tokens": ["La", "Gorp", "à", "Nexon"],
+    "labels": ["B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montrez-moi", "tous", "les", "trains", "de", "Montpaon", "à", "Cravant-Bazarnes", "qui", "valent", "la", "peine", "d'être", "directs", "ou", "avec", "correspondance"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "à", "Vic-Mireval", "en", "partant", "de", "Vichy"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["trains", "de", "Fréjus", "à", "Cleveland"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "de", "Folligny", "à", "Aubrives", "après", "18", "heures", "mardi", "prochain"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'aimerais", "connaître", "le", "trajet", "le", "plus", "court", "entre", "Villepinte", "et", "Aiserey"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["J'aimerais", "voir", "des", "informations", "sur", "les", "trains", "en", "provenance", "de", "Mulhouse", "partant", "après", "midi", "vers", "Albi", "lundi", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["J'aimerais", "faire", "une", "réservation", "pour", "un", "train", "pour", "Pont-Remy", "depuis", "Montélimar", "dimanche", "prochain", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Nieppe", "à", "Chépy-Valines", "mercredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Saint-Germain-du-Puy", "à", "Pontmort"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["s'il", "vous", "plaît", ",", "donnez-moi", "les", "trains", "de", "La", "Défense", "à", "Auray", "DC", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'informations", "de", "Gien", "à", "Libercourt"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "premier", "train", "de", "Agay", "à", "Heiligenberg-Mollkirch", "qui", "sert", "une", "collation"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["donne-moi", "les", "trains", "quittant", "Conches-en-Ouche", "le", "9", "août", "pour", "revenir", "à", "Montauban-de-Bretagne"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "O", "O", "O", "O", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "voyagent", "de", "Saint-Chamas", "à", "Le", "Quesnoy", "le", "lundi", "mardi", "mercredi", "jeudi", "et", "vendredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Je", "veux", "trouver", "le", "premier", "train", "de", "Staffelfelden", "à", "Morteau", "qui", "sert", "un", "repas"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["afficher", "tous", "les", "trains", "de", "Les", "Flachères", "à", "Pouilly-sur-Loire", "le", "29", "juillet"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Je", "veux", "voyager", "de", "Nanterre", "Université", "à", "Tergnier", "tôt", "le", "matin", ",", "premier", "train"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'ai", "maintenant", "besoin", "d'un", "train", "de", "San", "José", "à", "Latour-de-Carol-Enveitg", "qui", "part", "le", "dimanche", "4"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "de", "Sainte-Marthe", "en", "Provence", "vendredi", "et", "arrivent", "à", "Tullins-Fures", "avant", "20", "heures"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "O", "O", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Poix-Terron", "à", "Lardy"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["liste", "des", "trains", "de", "Delta", "Airlines", "de", "Champlan", "à", "Philadelphie"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "sans", "correspondance", "entre", "Saint-Saturnin-lès-Avignon", "et", "Saubusse", "arrivent", "après", "16", "heures"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["dans", "le", "premier", "train", "de", "Châtel-Censoir", "à", "Aubazines-Saint-Hilaire", ",", "un", "repas", "est", "servi"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "de", "Cugand", "à", "Nogent-le-Rotrou", "arrivent", "avant", "8", "heures", "du", "matin"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["trouve-moi", "le", "premier", "train", "de", "Faubourg", "d'Orléans", "à", "Ygos-Saint-Saturnin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["lister", "les", "trains", "sans", "correspondance", "de", "La", "Brillanne-Oraison", "à", "Kruth", "qui", "arrivent", "avant", "minuit"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Chemillé-en-Anjou", "à", "Latour-de-Carol-Enveitg"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "pour", "Saint-Avold", "depuis", "Xertigny", "et", "s'arrêtant", "à", "Boucoiran-et-Nozières"],
+    "labels": ["O", "O", "O", "O", "B-ARR", "O", "B-DEP", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Clermont-Ferrand", "à", "Triel-sur-Seine"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["J'aimerais", "qu'un", "train", "de", "Vendôme-Villiers-sur-Loir", "TGV", "à", "Phoenix", "s'arrête", "à", "Cincinnati"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "aussi", "les", "trains", "de", "Lannemezan", "à", "Yerres", "mardi"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["montrer", "les", "trains", "de", "Lyon", "Saint-Exupéry", "TGV", "à", "Waligator", "Parc"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "de", "Fleurieux-sur-l'Arbresle", "à", "Valence"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["trouve-moi", "un", "train", "sur", "United", "de", "Pompadour", "à", "Gièvres", "avec", "une", "correspondance", "à", "Saint-Agne"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "de", "La", "Garenne-Colombes", "à", "Mullerhof", "après", "17", "heures"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "sont", "tous", "les", "trains", "de", "La", "Garde", "à", "Epfig"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "premier", "train", "au", "départ", "de", "Ambazac", "et", "arrivant", "à", "Clerval", "le", "9", "novembre"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "premier", "train", "voyageant", "de", "Montérolier-Buchy", "à", "Paris", "Saint-Lazare", "le", "5", "juillet"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Veuillez", "indiquer", "les", "trains", "disponibles", "pour", "samedi", "prochain", "de", "Philadelphie", "à", "Cubzac-les-Ponts", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "quittent", "Sallaumines", "et", "arrivent", "à", "Marquillies", "après", "17", "heures", "jeudi"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "O", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'aimerais", "savoir", "quels", "trains", "il", "y", "a", "le", "vendredi", "en", "provenance", "de", "Pagny-sur-Moselle", "à", "Ossès-Saint-Martin-d'Arrossa", ",", "merci"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["tous", "les", "trains", "de", "L'Aiguille", "à", "Mâcon", "DC", "le", "10", "novembre"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "sont", "les", "trains", "de", "Breil-sur-Roya", "à", "Aurec-sur-Loire"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quel", "train", "est", "un", "aller", "simple", "à", "329", "euros", "de", "Mont-Dauphin-Guillestre", "à", "Lyon", "Part", "Dieu"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "de", "Mulhouse", "Musées", "pour", "Château-l'Évêque", "après", "18", "heures", "vendredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["je", "voudrais", "des", "informations", "sur", "les", "trains", "qui", "partent", "de", "Notre-Dame", "de", "Briançon", "vers", "Paris", "Austerlitz"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "le", "dernier", "train", "sans", "correspondance", "de", "La", "Brigue", "à", "Saincaize-Meauce", "DC"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["quels", "sont", "les", "trains", "de", "Ancenis", "à", "Sainte-Marthe", "en", "Provence"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["non", ",", "je", "veux", "aller", "de", "Chinon", "à", "Paimpol"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["J'aimerais", "connaître", "les", "trains", "disponibles", "de", "Farébersviller", "à", "Belloy-Saint-Martin", "arrivant", "à", "Belloy-Saint-Martin", "avant", "8", "heures", "mercredi", "matin", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'aimerais", "voyager", "au", "tarif", "le", "moins", "cher", "disponible", "de", "Thieux-Nantouillet", "à", "Ormoy-Villers", "le", "mercredi", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["lister", "le", "train", "de", "Onville", "à", "Gien"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "premier", "train", "d'Onzain-Chaumont-sur-Loire", "à", "Courcelles-le-Comte", "le", "jeudi", "5", "septembre", "qui", "part", "après", "8", "heures", "du", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["train", "de", "Obermodern-Zutzendorf", "à", "Muret", "arrivant", "avant", "16", "heures", "le", "samedi"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["liste", "des", "trains", "demain", "de", "Val", "d'Argenteuil", "à", "Nançois-Tronville"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "de", "Saint-Gilles-Croix-de-Vie", "à", "Najac"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "de", "Bretagne", "qui", "partent", "à", "Quimperlé", "depuis", "Nantes"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP"]
+  },
+  {
+    "tokens": ["pouvez-vous", "lister", "tous", "les", "trains", "entre", "Puteaux", "et", "Prunay"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["lister", "tous", "les", "trains", "de", "Clermont-en-Argonne", "à", "Philadelphie"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["trains", "aller-retour", "de", "Barenton-Bugny", "à", "Avesnes-sur-Helpe", ",", "tarif", "économique", "en", "autocar"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["je", "veux", "voyager", "de", "Nice", "Riquier", "à", "Bondy", "et", "je", "ne", "veux", "pas", "d'correspondance", "et", "j'aimerais", "voyager", "uniquement", "l'après-midi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["trains", "de", "Frontignan", "à", "Poligny", "entre", "10h", "et", "14h"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Commander", "sur", "l'application", "Quillan", "Val-de-Reuil"],
+    "labels": ["O", "O", "O", "B-DEP", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "y", "a-t-il", "sur", "le", "delta", "de", "Houdan", "à", "Vesoul"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quitter", "Nointel-Mours", "pour", "Obermodern-Zutzendorf", "le", "dernier", "train"],
+    "labels": ["O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Comment", "puis-je", "me", "rendre", "de", "l'Aéroport", "Charles", "de", "Gaulle", "1", "au", "centre-ville", "de", "Rambouillet", "?"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["J'ai", "besoin", "d'un", "train", "de", "Aillevillers", "à", "Albi", "qui", "part", "mercredi", "et", "arrive", "à", "Albi", "vers", "19", "heures", "."],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Je", "voudrais", "des", "informations", "sur", "les", "trains", "de", "Sisteron", "à", "Thaon", "partant", "jeudi", "soir", "."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'ai", "besoin", "d'un", "train", "pas", "cher", "de", "Chantenay", "à", "Saint-Junien"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["liste", "des", "trains", "sans", "correspondance", "tôt", "mardi", "matin", "de", "Loches", "à", "Ars-sur-Moselle"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "premier", "train", "qui", "part", "de", "Philadelphie", "à", "Sainte-Eulalie-Carbon-Blanc"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "pour", "Villeneuve-Loubet", "de", "Ay", "après", "18", "heures"],
+    "labels": ["O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "aller-retour", "de", "Bailleau-le-Pin", "à", "Longueau"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Les", "trains", "qui", "s'arrêtent", "à", "Lille", "Flandres", "avant", "midi", "en", "partant", "de", "Marseille", "Saint-Charles", "pour", "partir", "avec", "Charles"],
+    "labels": ["O", "O", "O", "O", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "de", "Brandérion", "à", "Gièvres", "après", "10", "h", "24", "du", "matin"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["train", "du", "soir", "le", "plus", "court", "de", "Tanus", "à", "Tarare"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Trains", "de", "Isles-Armentières-Congis", "à", "Durtol-Nohanent"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["J'aimerais", "voyager", "avec", "des", "compagnies", "sympa", "entre", "Thann", "et", "Lezennes", "à", "la", "Bien", "!"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["tous", "les", "trains", "de", "Épinal", "à", "Pontarlier", "aller-retour", "après", "midi", "moins", "de", "100"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "dimanche", "allant", "de", "Jarville-la-Malgrange", "à", "La", "Bassée-Violaines", "en", "première", "classe", "sans", "correspondance", "partant", "après", "midi"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["des", "Yvris", "Noisy-le-Grand", "à", "Liesle"],
+    "labels": ["O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Prades-Molitg-les-Bains", "à", "Les", "Quatre", "Roues", "lundi", "après-midi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["montrez-moi", "le", "train", "avec", "la", "plus", "petite", "capacité", "en", "sièges", "qui", "quitte", "Hombourg-Haut", "et", "arrive", "à", "La", "Brohinière", "le", "14", "juin"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["afficher", "tous", "les", "trains", "de", "Goncelin", "à", "Le", "Grand-Lemps", "le", "31", "juillet"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["y", "a-t-il", "des", "trains", "avant", "midi", "le", "15", "juin", "pour", "Lestelle-de-Saint-Martory", "de", "Lons-le-Saunier", "?"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP", "O"]
+  },
+  {
+    "tokens": ["liste", "des", "trains", "quotidiens", "de", "Culoz", "à", "Luçon"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Dans", "un", "train", "de", "Port-de-Bouc", "à", "Maisons-Laffitte", "qui", "part", "avant", "8", "heures", "du", "matin", "existe-t-il", "un", "tel", "train", "?"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "moyen", "le", "plus", "cher", "pour", "me", "rendre", "à", "Saint-Dalmas", "de", "Tende", "de", "Rodez"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "I-ARR", "I-ARR", "O", "B-DEP"]
+  },
+  {
+    "tokens": ["veuillez", "lister", "tous", "les", "trains", "partant", "de", "Saint-Martin", "du", "Touch", "pour", "Saint-Mathurin-sur-Loire"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["j'aimerais", "voir", "les", "trains", "de", "Villers-sur-Mer", "à", "Macau", "s'il", "vous", "plaît"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["La", "Rivière", "de", "Mansac", "à", "Laguépie"],
+    "labels": ["B-DEP", "I-DEP", "I-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["veuillez", "lister", "les", "trains", "du", "vendredi", "après-midi", "de", "San", "José", "à", "Les", "Clairières", "de", "Verneuil"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["montrer", "le", "premier", "train", "de", "Tournan-en-Brie", "à", "Le", "Vert", "de", "Maisons", "mercredi"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "de", "Argentan", "à", "Le", "Theil-de-Bretagne", "vendredi", "sur", "American", "Airlines"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "une", "liste", "des", "trains", "de", "Monnerville", "à", "Sceaux-Boëssé", "pour", "le", "30", "août"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "le", "train", "le", "moins", "cher", "de", "Le", "Pont-de-Claix", "à", "Le", "Bras", "de", "Fer", "le", "dimanche", "après", "midi"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Quels", "trains", "y", "a-t-il", "de", "Cormeilles-en-Parisis", "à", "Le", "Dorat", "?"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["je", "veux", "un", "train", "pour", "La", "Rivière", "de", "Mansac", "de", "La", "Tour-du-Pin", "qui", "ait", "au", "moins", "un", "arrêt"],
+    "labels": ["O", "O", "O", "O", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR", "O", "B-DEP", "I-DEP", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "train", "avez-vous", "de", "Méry-sur-Oise", "à", "Pernes-Camblain", "le", "matin", "du", "27", "août"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "de", "Vierzy", "à", "Fouilloy", "arrivent", "avant", "20", "heures", "à", "Fouilloy"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Prissé-la-Charrière", "à", "Marseille", "Saint-Charles", "pour", "jeudi", "soir", "ou", "vendredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Pourriez-vous", "me", "trouver", "un", "train", "de", "Vélines", "à", "Templeuve", "qui", "s'arrête", "à", "Marquillies"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["trains", "de", "La", "Tour-de-Salvagny", "à", "La", "Plaine", "Stade", "de", "France-Saint-Denis-Aubervilliers"],
+    "labels": ["O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Y", "a-t-il", "des", "trains", "de", "Bourges", "à", "Provenchères-sur-Fave", "avec", "des", "arrêts", "?"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["trains", "de", "Dambach-la-Ville", "à", "Croix-Wasquehal"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Crouy-sur-Ourcq", "à", "Dambach-la-Ville"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["de", "Varilhes", "à", "Lamagistère", "DC", "le", "lundi", "11", "novembre", "1991"],
+    "labels": ["O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["je", "suis", "intéressé", "par", "un", "train", "de", "Herblay", "à", "Pont-de-Veyle"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["donne-moi", "des", "trains", "de", "Issé", "à", "Provenchères-sur-Fave"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "ce", "dimanche", "de", "Culmont-Chalindrey", "à", "Dardilly", "Les", "Mouilles", "et", "je", "préférerais", "un", "train", "du", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["donnez-moi", "des", "trains", "au", "départ", "de", "Dives-sur-Mer", "Port", "Guillaume", "vers", "Dombasle-sur-Meurthe", "le", "samedi", "et", "le", "dimanche"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dis", "moi", "pour", "un", "Die", "à", "Dingé"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "le", "premier", "train", "de", "Machecoul", "à", "Dourdan", "La", "Forêt", "en", "passant", "par", "la", "forêt"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["un", "Lille", "Porte", "de", "Douai", "à", "Douai"],
+    "labels": ["O", "B-DEP", "I-DEP", "I-DEP", "B-ARR", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["De", "Douai", "à", "Lille", "Porte"],
+    "labels": ["O", "B-DEP", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Puis-je", "avoir", "une", "liste", "des", "trains", "de", "Livron-sur-Drôme", "à", "Loriol-sur-Drôme", "en", "partant", "dans", "la", "soirée", "?"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "de", "bétaille", "à", "Bessay-sur-Allier", "depuis", "Moulins", "sur", "Allier"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP", "I-DEP", "I-DEP"]
+  },
+  {
+    "tokens": ["premiers", "trains", "de", "Saulon", "à", "Moult-Argences", "un", "jeudi"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["J'ai", "besoin", "d'un", "train", "de", "Argenteuil", "à", "Montreuil-sur-Thérain", "qui", "part", "tôt", "le", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Verrey-sous-Salmaise", "à", "Sarcelles-Saint-Brice"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["tous", "les", "trains", "de", "Provins", "à", "Moûtiers-Salins-Brides-les-Bains"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "lundi", "de", "Philadelphie", "à", "Montrabé", "après", "7", "heures", "du", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Mulhouse", "à", "Mulhouse", "Dornach"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Je", "dois", "aller", "de", "Vidauban", "à", "Nancy", "et", "revenir", "dans", "la", "même", "journée", ",", "trouvez-moi", "le", "premier", "train", "de", "Vidauban"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "aller", "simple", "de", "Nanterre", "La", "Folie", "à", "Nanterre", "Université", "mercredi"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "tous", "les", "trains", "de", "Grandvillars", "à", "Les", "Ramassiers", "demain", "qui", "servent", "un", "repas"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["afficher", "tous", "les", "trains", "de", "Saint-Piat", "à", "La", "Garenne-Colombes"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["je", "souhaite", "voyager", "de", "Villers-Cotterêts", "à", "Chanac", "veuillez", "trouver", "une", "compagnie", "aérienne", "pour", "moi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "de", "Neuillé-Pont-Pierre", "à", "Neuilly-Porte", "Maillot", "s'arrêtent", "également", "à", "Neuilly", "Porte", "Maillot", "RER", "E"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "mardi", "matin", "de", "Nevers", "Le", "Banlay", "à", "Puyoô"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Y", "a-t-il", "des", "trains", "de", "Pont", "du", "Garigliano-Hôpital", "Européen", "Georges", "Pompidou", "à", "Durtol-Nohanent", "?"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "I-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "moyen", "le", "moins", "cher", "pour", "voyager", "de", "Philadelphie", "à", "Villars-les-Dombes"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["lister", "tous", "les", "trains", "sans", "correspondance", "de", "Mourmelon-le-Petit", "à", "La", "Grand-Combe", "avant", "17", "heures", "le", "mardi"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Petit", "trajet", "Pont", "Petit", "à", "Petit", "Vaux", "vendredi"],
+    "labels": ["O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["trouver", "un", "train", "Berlaimont", "à", "Oloron-Sainte-Marie", "qui", "fait", "correspondance", "à", "Issy", "Val", "de", "Seine"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["trains", "de", "Pont-à-Mousson", "à", "Remise", "à", "Jorelle"],
+    "labels": ["O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Landrecies", "à", "Rive-de-Gier", "DC", "le", "mercredi"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["liste", "de", "tous", "les", "trains", "de", "Vis", "à", "Marles", "à", "Pont-à-Vendin", "qui", "arrivent", "le", "mercredi", "après", "16", "heures"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'aimerais", "aller", "de", "Chalon-sur-Saône", "à", "Saint-Gilles", "Lycée", "Haut-Rhin", "à", "21", "heures", "samedi", "soir"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "l'est", "de", "Pont", "de", "Dore", "à", "Pont", "de", "Briques"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "y", "a-t-il", "dimanche", "de", "Pont", "de", "Bois", "à", "Pont", "de", "l'Alma"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Pont-à-Mousson", "depuis", "Pont", "de", "la", "Deûle"],
+    "labels": ["B-ARR", "O", "B-DEP", "I-DEP", "I-DEP", "I-DEP"]
+  },
+  {
+    "tokens": ["Pont", "de", "Sallaumines", "à", "Pont", "de", "la", "Deûle"],
+    "labels": ["B-DEP", "I-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["y", "a-t-il", "un", "train", "de", "Arbanats", "à", "Les", "Sables", "Blancs"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Avez-vous", "un", "train", "l'après-midi", "partant", "de", "Phalempin", "à", "Cernay", "(", "Haut-Rhin", ")", "avec", "une", "correspondance", "à", "Lesparre-Médoc", "?"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "une", "liste", "de", "trains", "de", "Sainte-Bazeille", "à", "Pont", "de", "Lignon", "le", "22", "juillet"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["maintenant", ",", "j'aimerais", "que", "les", "trains", "de", "Saint-Sulpice", "(", "Tarn", ")", "à", "Saint-Sulpice-Izon", "partent", "entre", "16h30", "et", "17h30"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Quels", "trains", "économiques", "sont", "disponibles", "de", "Nonancourt", "à", "Estressin", "le", "17", "décembre"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["je", "voudrais", "un", "train", "de", "Sainte-Pazanne", "à", "Campagnac-Saint-Geniez"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Quels", "trains", "y", "a-t-il", "le", "mercredi", "soir", "ou", "le", "jeudi", "matin", "de", "Reignac-sur-Indre", "à", "Sierck-les-Bains", "?"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["trouvez-moi", "un", "train", "au", "départ", "de", "Malling", "arrivée", "à", "Ballan-Miré", "avec", "correspondance", "à", "Théoule-sur-Mer"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Quels", "trains", "sont", "disponibles", "entre", "Vanves-Malakoff", "et", "Brive-la-Gaillarde", "arrivant", "à", "6h30"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "train", "le", "moins", "cher", "de", "Beauvais", "à", "Marseille-en-Beauvaisis"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "y", "a-t-il", "de", "Béthune", "à", "Massy-Palaiseau", "sur", "le", "continent"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Quels", "trains", "Européen", "propose-t-il", "de", "Pont-de-Buis", "à", "Erdre", "Active", "mardi"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O"]
+  },
+  {
+    "tokens": ["puis-je", "voyager", "de", "Bedous", "à", "Chessy", "Magalas"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["trains", "de", "Étaples-Le", "Touquet", "à", "Esvres", "sur", "Indre"],
+    "labels": ["O", "O", "B-DEP", "I-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["j'aimerais", "savoir", "si", "vous", "avez", "des", "trains", "pour", "Sartrouville", "depuis", "Étain"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-ARR", "O", "B-DEP"]
+  },
+  {
+    "tokens": ["Eu", "à", "Le", "Mans"],
+    "labels": ["B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["je", "suis", "intéressé", "par", "un", "train", "sur", "Gap", "d'Issoire"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-ARR", "O"]
+  },
+  {
+    "tokens": ["quels", "trains", "partent", "d'Istres", "à", "Ingrandes-Le", "Fresne-sur-Loire", "le", "soir"],
+    "labels": ["O", "O", "O", "O", "O", "B-ARR", "I-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["cherche", "un", "train", "sans", "correspondance", "du", "dimanche", "de", "Jacques-Monod-La", "Demi-Lieue", "à", "Jœuf"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["lister", "tous", "les", "trains", "d'Itxassou", "à", "L'Abbaye"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["j'aimerais", "voir", "des", "trains", "de", "Saint-Michel-sur-Orge", "à", "La", "Baule", "Les", "Pins"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Le", "train", "Saint-Omer", "La", "Barasse"],
+    "labels": ["O", "O", "B-DEP", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["Afficher", "tous", "les", "trains", "de", "correspondance", "de", "Saint-Romain-le-Puy", "à", "La", "Coquille"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["lister", "les", "trains", "quotidiens", "de", "Vénissieux", "à", "La", "Gouesnière-Cancale-Saint-Méloir-des-Ondes"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["J'ai", "besoin", "d'un", "train", "de", "Saint-Médard-sur-Ille", "à", "La", "Loupe", "à", "la", "louche"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["J'aimerais", "réserver", "un", "train", "de", "Allassac", "à", "Cergy", "le", "Haut", "le", "premier", "juin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montrez-moi", "tous", "les", "trains", "directs", "uniquement", "de", "Boisseaux", "à", "Pont-du-Château", "qui", "arrivent", "avant", "10", "heures", ",", "heure", "locale"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "la", "route", "de", "Route", "de", "Launaguet", "à", "La", "Ricamarie", "le", "16", "juin"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["lister", "tous", "les", "trains", "allant", "de", "Rambouillet", "à", "La", "Rivière-Drugeon", "après", "6", "heures", "le", "mercredi", "et", "avant", "7", "heures", "le", "jeudi"],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["de", "Drancy", "à", "Fors", "avec", "arret", "détente"],
+    "labels": ["O", "B-DEP", "O", "B-ARR", "O", "O", "O"]
+  },
+  {
+    "tokens": ["montre-moi", "les", "trains", "de", "Franconville-Le", "Plessis-Bouchard", "à", "Francheville"],
+    "labels": ["O", "O", "O", "O", "B-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["j'ai", "besoin", "d'un", "train", "de", "Tampa", "à", "Montréal"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["qu'est-ce", "que", "tu", "as", "de", "Foëcy", "à", "Firminy", "samedi", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["lister", "tous", "les", "trains", "pour", "Saint-Vit", "à", "Jouy", "avec", "le", "nombre", "maximum", "d'arrêts"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["quels", "sont", "les", "trains", "de", "Corrèze", "à", "Vendenheim", "lundi", "matin"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O"]
+  },
+  {
+    "tokens": ["quel", "est", "le", "train", "le", "moins", "cher", "de", "Rouillé", "à", "Ebblinghem"],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["de", "Remise", "à", "Jorelle", "à", "Ballancourt-sur-Essonne"],
+    "labels": ["O", "B-DEP", "I-DEP", "I-DEP", "O", "B-ARR"]
+  },
+  {
+    "tokens": ["Y", "a-t-il", "des", "trains", "de", "Lardy", "à", "Pauillac", "s'arrêtant", "à", "Chézy-sur-Marne", "?"],
+    "labels": ["O", "O", "O", "O", "O", "B-DEP", "O", "B-ARR", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["j'aimerais", "voyager", "de", "Ailly-sur-Somme", "à", "Aix-les-Bains", "le", "Revard"],
+    "labels": ["O", "O", "O", "B-DEP", "O", "B-ARR", "I-ARR", "I-ARR"]
+  },
+  {
+    "tokens": ["quels", "trains", "voyagent", "d'Alençon", "à", "Corbeil-Essonnes"],
+    "labels": ["O", "O", "O", "O", "O", "B-ARR"]
+  }
+]
