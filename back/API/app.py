@@ -2,9 +2,10 @@ from flask import Flask, jsonify, request
 import folium
 import speech_recognition as sr
 from flask_cors import CORS
+from pydub import AudioSegment
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "http://localhost:5000/api/v1/"}})
 
 
 @app.route('/api/v1/travel', methods=['GET'])
@@ -58,8 +59,12 @@ def speech_to_text():
         return jsonify({'error': 'No audio file'}), 400
 
     audio_file = request.files['audio']
+    # Convertion en format WAV si l'audio
+    audio = AudioSegment.from_file(audio_file, format="webm")
+    audio.export('output.wav', format="wav")
+
     recognizer = sr.Recognizer()
-    with sr.AudioFile(audio_file) as source:
+    with sr.AudioFile("output.wav") as source:
         audio = recognizer.record(source)
     try:
         text = recognizer.recognize_google(audio, language='fr-FR')

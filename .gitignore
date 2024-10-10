@@ -170,3 +170,4 @@ cython_debug/
 
 .vite/
 .idea/
+.DS_Store
