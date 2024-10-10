@@ -28,6 +28,7 @@ def get_coordinates(city_name, df):
         print(f"No coordinates found for {city_name}")
         return None, None
 
+
 # Example usage to test the script
 df = load_station_data()
 if df is not None:
