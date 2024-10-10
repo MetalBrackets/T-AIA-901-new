@@ -1,8 +1,5 @@
 import { createSignal } from "solid-js";
 
-interface AudioData {
-  text : String,
-}
 
 function SpeechToText() {
   const [transcription, setTranscription] = createSignal("");
@@ -30,9 +27,13 @@ function SpeechToText() {
           body: formData,
         })
           .then((response) =>
-              response.text())
+              //response.text())
+              response.json())
           .then((data) => {
             console.log("La réponse du serveur:", data)
+            const transcription = data.text
+            console.log(transcription)
+            setTranscription(transcription)
             })
           .catch((error) => console.error("Error:", error));
         };
@@ -49,6 +50,7 @@ function SpeechToText() {
       <button onClick={stopRecording}>Stop Recording</button>
       <p>Transcription: {transcription()}</p>
     </div>
+
   );
 }
 
