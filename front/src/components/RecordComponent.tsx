@@ -1,3 +1,4 @@
+import {speechToText} from "../route";
 
 
 const RecordComponent = () => {
@@ -24,6 +25,7 @@ const RecordComponent = () => {
                     const audio = new Audio(audioUrl);
                     audio.play();
                     saveAudio(audioBlob);
+                    speechToText(audioBlob)
                 });
 
                 setTimeout(() => {
