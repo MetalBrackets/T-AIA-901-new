@@ -1,6 +1,6 @@
-########################################
+###########################################
 # This script 1 is used to tokenize data #
-########################################
+##########################################
 
 import os
 import pandas as pd
@@ -63,7 +63,7 @@ def process_csv(filepath):
 annotated_dataset = process_csv(absolute_file_path)
 
 # Export JSON file
-json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_first_POC.json')
+json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_1_POC.json')
 
 json_data = []
 for data in annotated_dataset:
