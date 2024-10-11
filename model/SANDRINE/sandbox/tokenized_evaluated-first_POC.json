@@ -1,0 +1,4910 @@
+[
+    {
+        "Phrase": "montrer les trains de Gargan à Valdahon Camp Militaire entre 18h et 20h le vendredi",
+        "Départ": "Gargan",
+        "Arrivée": "Valdahon Camp Militaire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9971437454223633,
+                "word": "Gargan",
+                "start": 21,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.997305691242218,
+                "word": "Valdahon Camp Militaire",
+                "start": 30,
+                "end": 54
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains sont disponibles de Montbard à Saint-Romain-le-Puy jeudi matin",
+        "Départ": "Montbard",
+        "Arrivée": "Saint-Romain-le-Puy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988084435462952,
+                "word": "Montbard",
+                "start": 32,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988456964492798,
+                "word": "Saint-Romain-le-Puy",
+                "start": 43,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train demain de Saint-Jodard à Champigny sur Yonne",
+        "Départ": "Saint-Jodard",
+        "Arrivée": "Champigny",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987396001815796,
+                "word": "Saint-Jodard",
+                "start": 32,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9965001344680786,
+                "word": "Champigny sur Yonne",
+                "start": 47,
+                "end": 67
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Montlouis-sur-Loire à Maroeuil jeudi",
+        "Départ": "Montlouis-sur-Loire",
+        "Arrivée": "Maroeuil",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988600015640259,
+                "word": "Montlouis-sur-Loire",
+                "start": 24,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9981439709663391,
+                "word": "Maroeuil",
+                "start": 46,
+                "end": 55
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "tous les trains de Nanteuil-le-Haudouin à Vigneux-sur-Seine",
+        "Départ": "Nanteuil-le-Haudouin",
+        "Arrivée": "Vigneux-sur-Seine",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988806843757629,
+                "word": "Nanteuil-le-Haudouin",
+                "start": 18,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988915324211121,
+                "word": "Vigneux-sur-Seine",
+                "start": 41,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Villeneuve-sur-Yonne à Bougival",
+        "Départ": "Villeneuve-sur-Yonne",
+        "Arrivée": "Bougival",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988489151000977,
+                "word": "Villeneuve-sur-Yonne",
+                "start": 24,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9963717460632324,
+                "word": "Bougival",
+                "start": 47,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Neufchâteau à Graffenwald en passant par Bollwiller",
+        "Départ": "Neufchâteau",
+        "Arrivée": "Graffenwald",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987391233444214,
+                "word": "Neufchâteau",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986996650695801,
+                "word": "Graffenwald",
+                "start": 38,
+                "end": 50
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987631440162659,
+                "word": "Bollwiller",
+                "start": 65,
+                "end": 76
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le train le moins cher de Beslé à Boulouris sur Mer",
+        "Départ": "Beslé",
+        "Arrivée": "Boulouris",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9976656436920166,
+                "word": "Beslé",
+                "start": 34,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986320734024048,
+                "word": "Boulouris sur Mer",
+                "start": 42,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "tous les trains de Annemasse à Mailly-la-Ville partent après 18h00 et avant 19h00",
+        "Départ": "Annemasse",
+        "Arrivée": "Mailly-la-Ville",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988235831260681,
+                "word": "Annemasse",
+                "start": 18,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988808631896973,
+                "word": "Mailly-la-Ville",
+                "start": 30,
+                "end": 46
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai besoin d'informations sur les trains pour mardi au départ de Perpignan pour Ussel",
+        "Départ": "Perpignan",
+        "Arrivée": "Ussel",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9979909658432007,
+                "word": "Perpignan",
+                "start": 65,
+                "end": 75
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986329674720764,
+                "word": "Ussel",
+                "start": 80,
+                "end": 86
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "s'il vous plaît donnez-moi les trains de Vierzon-Forges à Houdan le jeudi de la semaine prochaine",
+        "Départ": "Vierzon-Forges",
+        "Arrivée": "Houdan",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.99873948097229,
+                "word": "Vierzon-Forges",
+                "start": 40,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983475208282471,
+                "word": "Houdan",
+                "start": 57,
+                "end": 64
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais voyager de Belvezet à Villiers-Neauphle-Pontchartrain avec la SNCF",
+        "Départ": "Belvezet",
+        "Arrivée": "Villiers-Neauphle-Pontchartrain",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988234043121338,
+                "word": "Belvezet",
+                "start": 21,
+                "end": 30
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988489747047424,
+                "word": "Villiers-Neauphle-Pontchartrain",
+                "start": 32,
+                "end": 64
+            },
+            {
+                "entity_group": "ORG",
+                "score": 0.9448398947715759,
+                "word": "SNCF",
+                "start": 72,
+                "end": 77
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Louvres à St-Vincent-le-Château",
+        "Départ": "Louvres",
+        "Arrivée": "St-Vincent-le-Château",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.997990608215332,
+                "word": "Louvres",
+                "start": 24,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986542463302612,
+                "word": "St-Vincent-le-Château",
+                "start": 34,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "veuillez lister tous les trains de première classe de La Rivière-Drugeon à Menars",
+        "Départ": "La Rivière-Drugeon",
+        "Arrivée": "Menars",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988154172897339,
+                "word": "La Rivière-Drugeon",
+                "start": 53,
+                "end": 72
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9972695112228394,
+                "word": "Menars",
+                "start": 74,
+                "end": 81
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais réserver un train d'Ablon-sur-Seine à Lardenne",
+        "Départ": "Ablon-sur-Seine",
+        "Arrivée": "Lardenne",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988617897033691,
+                "word": "Ablon-sur-Seine",
+                "start": 31,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983648657798767,
+                "word": "Lardenne",
+                "start": 48,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrez-moi tous les trains de Condat-le-Lardin à Gilly-sur-Loire le mercredi de la semaine prochaine",
+        "Départ": "Condat-le-Lardin",
+        "Arrivée": "Gilly-sur-Loire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988524913787842,
+                "word": "Condat-le-Lardin",
+                "start": 30,
+                "end": 47
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988678097724915,
+                "word": "Gilly-sur-Loire",
+                "start": 49,
+                "end": 65
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai également besoin d'un train de Stephansfeld à Freinville Sevran pour arriver à midi.",
+        "Départ": "Stephansfeld",
+        "Arrivée": "Freinville Sevran",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9965219497680664,
+                "word": "Stephansfeld",
+                "start": 35,
+                "end": 48
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983800053596497,
+                "word": "Freinville Sevran",
+                "start": 50,
+                "end": 68
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "veuillez trouver un train sur Surdon à La Suze-sur-Sarthe et donnez-moi les numéros de train",
+        "Départ": "Surdon",
+        "Arrivée": "La Suze-sur-Sarthe",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9985783696174622,
+                "word": "Surdon",
+                "start": 29,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998850405216217,
+                "word": "La Suze-sur-Sarthe",
+                "start": 38,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train de Tullins-Fures à Villabé",
+        "Départ": "Tullins-Fures",
+        "Arrivée": "Villabé",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988593459129333,
+                "word": "Tullins-Fures",
+                "start": 25,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983193874359131,
+                "word": "Villabé",
+                "start": 41,
+                "end": 49
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels sont les trains de Saint-Louis à Burbank dimanche soir",
+        "Départ": "Saint-Louis",
+        "Arrivée": "Burbank",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9793915748596191,
+                "word": "Saint-Louis",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9701012372970581,
+                "word": "Burbank",
+                "start": 38,
+                "end": 46
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais organiser un train de Frynaudour à Ur-les-Escaldes",
+        "Départ": "Frynaudour",
+        "Arrivée": "Ur-les-Escaldes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988529682159424,
+                "word": "Frynaudour",
+                "start": 32,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988600015640259,
+                "word": "Ur-les-Escaldes",
+                "start": 45,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Teillé Vif",
+        "Départ": "Teillé",
+        "Arrivée": "Vif",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9964017868041992,
+                "word": "Teillé Vif",
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Saint-Lô Tassin",
+        "Départ": "Saint-Lô",
+        "Arrivée": "Tassin",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9975200295448303,
+                "word": "Saint-Lô Tassin",
+                "start": 0,
+                "end": 15
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "La Gorp à Nexon",
+        "Départ": "La Gorp",
+        "Arrivée": "Nexon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.890296459197998,
+                "word": "Gorp",
+                "start": 2,
+                "end": 7
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9978981614112854,
+                "word": "Nexon",
+                "start": 9,
+                "end": 15
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrez-moi tous les trains de Montpaon à Cravant-Bazarnes qui valent la peine d'être directs ou avec correspondance",
+        "Départ": "Montpaon",
+        "Arrivée": "Cravant-Bazarnes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9980693459510803,
+                "word": "Montpaon",
+                "start": 30,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986539483070374,
+                "word": "Cravant-Bazarnes",
+                "start": 41,
+                "end": 58
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train à Vic-Mireval en partant de Vichy",
+        "Départ": "Vic-Mireval",
+        "Arrivée": "Vichy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9985596537590027,
+                "word": "Vic-Mireval",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9973682761192322,
+                "word": "Vichy",
+                "start": 50,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de Fréjus à Cleveland",
+        "Départ": "Fréjus",
+        "Arrivée": "Cleveland",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9937113523483276,
+                "word": "Fréjus",
+                "start": 9,
+                "end": 16
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9937920570373535,
+                "word": "Cleveland",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent de Folligny à Aubrives après 18 heures mardi prochain",
+        "Départ": "Folligny",
+        "Arrivée": "Aubrives",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986733794212341,
+                "word": "Folligny",
+                "start": 23,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.99861079454422,
+                "word": "Aubrives",
+                "start": 34,
+                "end": 43
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais connaître le trajet le plus court entre Villepinte et Aiserey",
+        "Départ": "Villepinte",
+        "Arrivée": "Aiserey",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988424181938171,
+                "word": "Villepinte",
+                "start": 50,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.99883633852005,
+                "word": "Aiserey",
+                "start": 64,
+                "end": 72
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais voir des informations sur les trains en provenance de Mulhouse partant après midi vers Albi lundi.",
+        "Départ": "Mulhouse",
+        "Arrivée": "Albi",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9983018636703491,
+                "word": "Mulhouse",
+                "start": 64,
+                "end": 73
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987290501594543,
+                "word": "Albi",
+                "start": 97,
+                "end": 102
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais faire une réservation pour un train pour Pont-Remy depuis Montélimar dimanche prochain.",
+        "Départ": "Montélimar",
+        "Arrivée": "Pont-Remy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986798763275146,
+                "word": "Pont-Remy",
+                "start": 51,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985935091972351,
+                "word": "Montélimar",
+                "start": 68,
+                "end": 79
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Nieppe à Chépy-Valines mercredi",
+        "Départ": "Nieppe",
+        "Arrivée": "Chépy-Valines",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9979633688926697,
+                "word": "Nieppe",
+                "start": 24,
+                "end": 31
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985656142234802,
+                "word": "Chépy-Valines",
+                "start": 33,
+                "end": 47
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Saint-Germain-du-Puy à Pontmort",
+        "Départ": "Saint-Germain-du-Puy",
+        "Arrivée": "Pontmort",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987949132919312,
+                "word": "Saint-Germain-du-Puy",
+                "start": 24,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9895676374435425,
+                "word": "Pontmort",
+                "start": 47,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "s'il vous plaît, donnez-moi les trains de La Défense à Auray DC.",
+        "Départ": "La Défense",
+        "Arrivée": "Auray DC",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9946804642677307,
+                "word": "La Défense",
+                "start": 41,
+                "end": 52
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9875932335853577,
+                "word": "Auray DC",
+                "start": 54,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'informations de Gien à Libercourt",
+        "Départ": "Gien",
+        "Arrivée": "Libercourt",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9978986978530884,
+                "word": "Gien",
+                "start": 29,
+                "end": 34
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9975986480712891,
+                "word": "Libercourt",
+                "start": 36,
+                "end": 47
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le premier train de Agay à Heiligenberg-Mollkirch qui sert une collation",
+        "Départ": "Agay",
+        "Arrivée": "Heiligenberg",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.997451663017273,
+                "word": "Agay",
+                "start": 28,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988806843757629,
+                "word": "Heiligenberg-Mollkirch",
+                "start": 35,
+                "end": 58
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "donne-moi les trains quittant Conches-en-Ouche le 9 août pour revenir à Montauban-de-Bretagne",
+        "Départ": "Conches-en-Ouche",
+        "Arrivée": "Montauban-de-Bretagne",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988663792610168,
+                "word": "Conches-en-Ouche",
+                "start": 29,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988569021224976,
+                "word": "Montauban-de-Bretagne",
+                "start": 71,
+                "end": 93
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains voyagent de Saint-Chamas à Le Quesnoy le lundi mardi mercredi jeudi et vendredi",
+        "Départ": "Saint-Chamas",
+        "Arrivée": "Le Quesnoy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988231062889099,
+                "word": "Saint-Chamas",
+                "start": 24,
+                "end": 37
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988248348236084,
+                "word": "Le Quesnoy",
+                "start": 39,
+                "end": 50
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Je veux trouver le premier train de Staffelfelden à Morteau qui sert un repas",
+        "Départ": "Staffelfelden",
+        "Arrivée": "Morteau",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9984731674194336,
+                "word": "Staffelfelden",
+                "start": 35,
+                "end": 49
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998358964920044,
+                "word": "Morteau",
+                "start": 51,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "afficher tous les trains de Les Flachères à Pouilly-sur-Loire le 29 juillet",
+        "Départ": "Les Flachères",
+        "Arrivée": "Pouilly-sur-Loire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987834692001343,
+                "word": "Les Flachères",
+                "start": 27,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987972378730774,
+                "word": "Pouilly-sur-Loire",
+                "start": 43,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Je veux voyager de Nanterre Université à Tergnier tôt le matin, premier train",
+        "Départ": "Nanterre Université",
+        "Arrivée": "Tergnier",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.5506471395492554,
+                "word": "Nanterre Université",
+                "start": 18,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9978624582290649,
+                "word": "Tergnier",
+                "start": 40,
+                "end": 49
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai maintenant besoin d'un train de San José à Latour-de-Carol-Enveitg qui part le dimanche 4",
+        "Départ": "San José",
+        "Arrivée": "Latour-de-Carol-Enveitg",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986295700073242,
+                "word": "San José",
+                "start": 36,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988039135932922,
+                "word": "Latour-de-Carol-Enveitg",
+                "start": 47,
+                "end": 71
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent de Sainte-Marthe en Provence vendredi et arrivent à Tullins-Fures avant 20 heures",
+        "Départ": "Sainte-Marthe en Provence",
+        "Arrivée": "Tullins-Fures",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9554862976074219,
+                "word": "Sainte-Marthe en Provence",
+                "start": 23,
+                "end": 49
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988503456115723,
+                "word": "Tullins-Fures",
+                "start": 72,
+                "end": 86
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Poix-Terron à Lardy",
+        "Départ": "Poix-Terron",
+        "Arrivée": "Lardy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9974501729011536,
+                "word": "Poix-Terron",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9915946125984192,
+                "word": "Lardy",
+                "start": 38,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "liste des trains de Delta Airlines de Champlan à Philadelphie",
+        "Départ": "Champlan",
+        "Arrivée": "Philadelphie",
+        "NER_Results": [
+            {
+                "entity_group": "ORG",
+                "score": 0.9944775700569153,
+                "word": "Delta Airlines",
+                "start": 19,
+                "end": 34
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9977557063102722,
+                "word": "Champlan",
+                "start": 37,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9981762170791626,
+                "word": "Philadelphie",
+                "start": 48,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains sans correspondance entre Saint-Saturnin-lès-Avignon et Saubusse arrivent après 16 heures",
+        "Départ": "Saint-Saturnin-lès-Avignon",
+        "Arrivée": "Saubusse",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9989043474197388,
+                "word": "Saint-Saturnin-lès-Avignon",
+                "start": 38,
+                "end": 65
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987099170684814,
+                "word": "Saubusse",
+                "start": 68,
+                "end": 77
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "dans le premier train de Châtel-Censoir à Aubazines-Saint-Hilaire, un repas est servi",
+        "Départ": "Châtel-Censoir",
+        "Arrivée": "Aubazines-Saint-Hilaire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988569021224976,
+                "word": "Châtel-Censoir",
+                "start": 24,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988747239112854,
+                "word": "Aubazines-Saint-Hilaire",
+                "start": 41,
+                "end": 65
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains de Cugand à Nogent-le-Rotrou arrivent avant 8 heures du matin",
+        "Départ": "Cugand",
+        "Arrivée": "Nogent-le-Rotrou",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9751790165901184,
+                "word": "Cugand",
+                "start": 15,
+                "end": 22
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998516857624054,
+                "word": "Nogent-le-Rotrou",
+                "start": 24,
+                "end": 41
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trouve-moi le premier train de Faubourg d'Orléans à Ygos-Saint-Saturnin",
+        "Départ": "Faubourg d'Orléans",
+        "Arrivée": "Ygos-Saint-Saturnin",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998704731464386,
+                "word": "Faubourg d",
+                "start": 30,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988152980804443,
+                "word": "Orléans",
+                "start": 42,
+                "end": 49
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988467693328857,
+                "word": "Ygos-Saint-Saturnin",
+                "start": 51,
+                "end": 71
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister les trains sans correspondance de La Brillanne-Oraison à Kruth qui arrivent avant minuit",
+        "Départ": "La Brillanne-Oraison",
+        "Arrivée": "Kruth",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987144470214844,
+                "word": "La Brillanne-Oraison",
+                "start": 40,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9984614849090576,
+                "word": "Kruth",
+                "start": 63,
+                "end": 69
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Chemillé-en-Anjou à Latour-de-Carol-Enveitg",
+        "Départ": "Chemillé-en-Anjou",
+        "Arrivée": "Latour-de-Carol",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998872697353363,
+                "word": "Chemillé-en-Anjou",
+                "start": 24,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988548159599304,
+                "word": "Latour-de-Carol-Enveitg",
+                "start": 44,
+                "end": 68
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains pour Saint-Avold depuis Xertigny et s'arrêtant à Boucoiran-et-Nozières",
+        "Départ": "Xertigny",
+        "Arrivée": "Saint-Avold",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988093972206116,
+                "word": "Saint-Avold",
+                "start": 26,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988484382629395,
+                "word": "Xertigny",
+                "start": 45,
+                "end": 54
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988829493522644,
+                "word": "Boucoiran-et-Nozières",
+                "start": 70,
+                "end": 92
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Clermont-Ferrand à Triel-sur-Seine",
+        "Départ": "Clermont-Ferrand",
+        "Arrivée": "Triel-sur-Seine",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982309937477112,
+                "word": "Clermont-Ferrand",
+                "start": 24,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987238049507141,
+                "word": "Triel-sur-Seine",
+                "start": 43,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais qu'un train de Vendôme-Villiers-sur-Loir TGV à Phoenix s'arrête à Cincinnati",
+        "Départ": "Vendôme-Villiers-sur-Loir TGV",
+        "Arrivée": "Phoenix",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9984099268913269,
+                "word": "Vendôme-Villiers-sur-Loir TGV",
+                "start": 25,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9936163425445557,
+                "word": "Phoenix",
+                "start": 57,
+                "end": 65
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9981125593185425,
+                "word": "Cincinnati",
+                "start": 76,
+                "end": 87
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi aussi les trains de Lannemezan à Yerres mardi",
+        "Départ": "Lannemezan",
+        "Arrivée": "Yerres",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9973279237747192,
+                "word": "Lannemezan",
+                "start": 30,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9970710873603821,
+                "word": "Yerres",
+                "start": 43,
+                "end": 50
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrer les trains de Lyon Saint-Exupéry TGV à Waligator Parc",
+        "Départ": "Lyon Saint-Exupéry TGV",
+        "Arrivée": "Waligator Parc",
+        "NER_Results": [
+            {
+                "entity_group": "MISC",
+                "score": 0.7197331190109253,
+                "word": "Lyon Saint-Exupéry TGV",
+                "start": 21,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.7773091197013855,
+                "word": "Waligator Parc",
+                "start": 46,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains de Fleurieux-sur-l'Arbresle à Valence",
+        "Départ": "Fleurieux-sur-l'Arbresle",
+        "Arrivée": "Valence",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988526105880737,
+                "word": "Fleurieux-sur-l'Arbresle",
+                "start": 29,
+                "end": 54
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9979875087738037,
+                "word": "Valence",
+                "start": 56,
+                "end": 64
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trouve-moi un train sur United de Pompadour à Gièvres avec une correspondance à Saint-Agne",
+        "Départ": "Pompadour",
+        "Arrivée": "Gièvres",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.5631491541862488,
+                "word": "United",
+                "start": 23,
+                "end": 30
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9966698288917542,
+                "word": "Pompadour",
+                "start": 33,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982283115386963,
+                "word": "Gièvres",
+                "start": 45,
+                "end": 53
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982259273529053,
+                "word": "Saint-Agne",
+                "start": 79,
+                "end": 90
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent de La Garenne-Colombes à Mullerhof après 17 heures",
+        "Départ": "La Garenne-Colombes",
+        "Arrivée": "Mullerhof",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988899230957031,
+                "word": "La Garenne-Colombes",
+                "start": 23,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998713493347168,
+                "word": "Mullerhof",
+                "start": 45,
+                "end": 55
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels sont tous les trains de La Garde à Epfig",
+        "Départ": "La Garde",
+        "Arrivée": "Epfig",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.996755838394165,
+                "word": "La Garde",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9979941248893738,
+                "word": "Epfig",
+                "start": 40,
+                "end": 46
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le premier train au départ de Ambazac et arrivant à Clerval le 9 novembre",
+        "Départ": "Ambazac",
+        "Arrivée": "Clerval",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986419677734375,
+                "word": "Ambazac",
+                "start": 38,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986059069633484,
+                "word": "Clerval",
+                "start": 60,
+                "end": 68
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le premier train voyageant de Montérolier-Buchy à Paris Saint-Lazare le 5 juillet",
+        "Départ": "Montérolier-Buchy",
+        "Arrivée": "Paris Saint-Lazare",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988628029823303,
+                "word": "Montérolier-Buchy",
+                "start": 38,
+                "end": 56
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986373782157898,
+                "word": "Paris Saint-Lazare",
+                "start": 58,
+                "end": 77
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Veuillez indiquer les trains disponibles pour samedi prochain de Philadelphie à Cubzac-les-Ponts.",
+        "Départ": "Philadelphie",
+        "Arrivée": "Cubzac-les-Ponts",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9980496168136597,
+                "word": "Philadelphie",
+                "start": 64,
+                "end": 77
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988791942596436,
+                "word": "Cubzac-les-Ponts",
+                "start": 79,
+                "end": 96
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains quittent Sallaumines et arrivent à Marquillies après 17 heures jeudi",
+        "Départ": "Sallaumines",
+        "Arrivée": "Marquillies",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988443851470947,
+                "word": "Sallaumines",
+                "start": 21,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987174868583679,
+                "word": "Marquillies",
+                "start": 47,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais savoir quels trains il y a le vendredi en provenance de Pagny-sur-Moselle à Ossès-Saint-Martin-d'Arrossa, merci",
+        "Départ": "Pagny-sur-Moselle",
+        "Arrivée": "Ossès-Saint-Martin-d'Arrossa",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988269805908203,
+                "word": "Pagny-sur-Moselle",
+                "start": 66,
+                "end": 84
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988014101982117,
+                "word": "Ossès-Saint-Martin-d'Arrossa",
+                "start": 86,
+                "end": 115
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "tous les trains de L'Aiguille à Mâcon DC le 10 novembre",
+        "Départ": "L'Aiguille",
+        "Arrivée": "Mâcon DC",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.995456874370575,
+                "word": "L'Aiguille",
+                "start": 18,
+                "end": 29
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9943132996559143,
+                "word": "Mâcon DC",
+                "start": 31,
+                "end": 40
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels sont les trains de Breil-sur-Roya à Aurec-sur-Loire",
+        "Départ": "Breil-sur-Roya",
+        "Arrivée": "Aurec-sur-Loire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988680481910706,
+                "word": "Breil-sur-Roya",
+                "start": 24,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988739490509033,
+                "word": "Aurec-sur-Loire",
+                "start": 41,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel train est un aller simple à 329 euros de Mont-Dauphin-Guillestre à Lyon Part Dieu",
+        "Départ": "Mont-Dauphin-Guillestre",
+        "Arrivée": "Lyon Part Dieu",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998812198638916,
+                "word": "Mont-Dauphin-Guillestre",
+                "start": 45,
+                "end": 69
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988541603088379,
+                "word": "Lyon Part Dieu",
+                "start": 71,
+                "end": 86
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent de Mulhouse Musées pour Château-l'Évêque après 18 heures vendredi",
+        "Départ": "Mulhouse Musées",
+        "Arrivée": "Château-l'Évêque",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9978792071342468,
+                "word": "Mulhouse Musées",
+                "start": 23,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988892078399658,
+                "word": "Château-l'Évêque",
+                "start": 44,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je voudrais des informations sur les trains qui partent de Notre-Dame de Briançon vers Paris Austerlitz",
+        "Départ": "Notre-Dame de Briançon",
+        "Arrivée": "Paris Austerlitz",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987130761146545,
+                "word": "Notre-Dame de Briançon",
+                "start": 58,
+                "end": 81
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986630082130432,
+                "word": "Paris Austerlitz",
+                "start": 86,
+                "end": 103
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi le dernier train sans correspondance de La Brigue à Saincaize-Meauce DC",
+        "Départ": "La Brigue",
+        "Arrivée": "Saincaize-Meauce DC",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987724423408508,
+                "word": "La Brigue",
+                "start": 50,
+                "end": 60
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9959768652915955,
+                "word": "Saincaize-Meauce DC",
+                "start": 62,
+                "end": 82
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels sont les trains de Ancenis à Sainte-Marthe en Provence",
+        "Départ": "Ancenis",
+        "Arrivée": "Sainte-Marthe",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987173676490784,
+                "word": "Ancenis",
+                "start": 24,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986959099769592,
+                "word": "Sainte-Marthe",
+                "start": 34,
+                "end": 48
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9975826740264893,
+                "word": "Provence",
+                "start": 51,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "non, je veux aller de Chinon à Paimpol",
+        "Départ": "Chinon",
+        "Arrivée": "Paimpol",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988181591033936,
+                "word": "Chinon",
+                "start": 21,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988097548484802,
+                "word": "Paimpol",
+                "start": 30,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais connaître les trains disponibles de Farébersviller à Belloy-Saint-Martin arrivant à Belloy-Saint-Martin avant 8 heures mercredi matin.",
+        "Départ": "Farébersviller",
+        "Arrivée": "Belloy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988618493080139,
+                "word": "Farébersviller",
+                "start": 46,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988424777984619,
+                "word": "Belloy-Saint-Martin",
+                "start": 63,
+                "end": 83
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998786985874176,
+                "word": "Belloy-Saint-Martin",
+                "start": 94,
+                "end": 114
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais voyager au tarif le moins cher disponible de Thieux-Nantouillet à Ormoy-Villers le mercredi matin",
+        "Départ": "Thieux-Nantouillet",
+        "Arrivée": "Ormoy-Villers",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988318085670471,
+                "word": "Thieux-Nantouillet",
+                "start": 55,
+                "end": 74
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988507032394409,
+                "word": "Ormoy-Villers",
+                "start": 76,
+                "end": 90
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister le train de Onville à Gien",
+        "Départ": "Onville",
+        "Arrivée": "Gien",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9920346736907959,
+                "word": "Onville",
+                "start": 18,
+                "end": 26
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9970574378967285,
+                "word": "Gien",
+                "start": 28,
+                "end": 33
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le premier train d'Onzain-Chaumont-sur-Loire à Courcelles-le-Comte le jeudi 5 septembre qui part après 8 heures du matin",
+        "Départ": "Onzain-Chaumont-sur-Loire",
+        "Arrivée": "Courcelles-le-Comte",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988406896591187,
+                "word": "Onzain-Chaumont-sur-Loire",
+                "start": 28,
+                "end": 53
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988836050033569,
+                "word": "Courcelles-le-Comte",
+                "start": 55,
+                "end": 75
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "train de Obermodern-Zutzendorf à Muret arrivant avant 16 heures le samedi",
+        "Départ": "Obermodern-Zutzendorf",
+        "Arrivée": "Muret",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987987875938416,
+                "word": "Obermodern-Zutzendorf",
+                "start": 8,
+                "end": 30
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986282587051392,
+                "word": "Muret",
+                "start": 32,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "liste des trains demain de Val d'Argenteuil à Nançois-Tronville",
+        "Départ": "Val d'Argenteuil",
+        "Arrivée": "Nançois-Tronville",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987779855728149,
+                "word": "Val d",
+                "start": 26,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988909363746643,
+                "word": "Argenteuil",
+                "start": 33,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988824725151062,
+                "word": "Nançois-Tronville",
+                "start": 45,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains de Saint-Gilles-Croix-de-Vie à Najac",
+        "Départ": "Saint-Gilles-Croix-de-Vie",
+        "Arrivée": "Najac",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988374710083008,
+                "word": "Saint-Gilles-Croix-de-Vie",
+                "start": 29,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9984487295150757,
+                "word": "Najac",
+                "start": 57,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains de Bretagne qui partent à Quimperlé depuis Nantes",
+        "Départ": "Nantes",
+        "Arrivée": "Quimperlé",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.7385931611061096,
+                "word": "de Bretagne",
+                "start": 26,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9965652227401733,
+                "word": "Quimperlé",
+                "start": 52,
+                "end": 62
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9966553449630737,
+                "word": "Nantes",
+                "start": 69,
+                "end": 76
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "pouvez-vous lister tous les trains entre Puteaux et Prunay",
+        "Départ": "Puteaux",
+        "Arrivée": "Prunay",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9985350370407104,
+                "word": "Puteaux",
+                "start": 40,
+                "end": 48
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986003041267395,
+                "word": "Prunay",
+                "start": 51,
+                "end": 58
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister tous les trains de Clermont-en-Argonne à Philadelphie",
+        "Départ": "Clermont-en-Argonne",
+        "Arrivée": "Philadelphie",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988500475883484,
+                "word": "Clermont-en-Argonne",
+                "start": 25,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9984203577041626,
+                "word": "Philadelphie",
+                "start": 47,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains aller-retour de Barenton-Bugny à Avesnes-sur-Helpe, tarif économique en autocar",
+        "Départ": "Barenton-Bugny",
+        "Arrivée": "Avesnes-sur-Helpe",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988947510719299,
+                "word": "Barenton-Bugny",
+                "start": 22,
+                "end": 37
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988864064216614,
+                "word": "Avesnes-sur-Helpe",
+                "start": 39,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je veux voyager de Nice Riquier à Bondy et je ne veux pas d'correspondance et j'aimerais voyager uniquement l'après-midi",
+        "Départ": "Nice Riquier",
+        "Arrivée": "Bondy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982743263244629,
+                "word": "Nice Riquier",
+                "start": 18,
+                "end": 31
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985551834106445,
+                "word": "Bondy",
+                "start": 33,
+                "end": 39
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de Frontignan à Poligny entre 10h et 14h",
+        "Départ": "Frontignan",
+        "Arrivée": "Poligny",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.99598228931427,
+                "word": "Frontignan",
+                "start": 9,
+                "end": 20
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9949725270271301,
+                "word": "Poligny",
+                "start": 22,
+                "end": 30
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Commander sur l'application Quillan Val-de-Reuil",
+        "Départ": "Quillan",
+        "Arrivée": "Val-de-Reuil",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998510479927063,
+                "word": "Quillan Val-de-Reuil",
+                "start": 27,
+                "end": 48
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains y a-t-il sur le delta de Houdan à Vesoul",
+        "Départ": "Houdan",
+        "Arrivée": "Vesoul",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.835033655166626,
+                "word": "delta de Houdan",
+                "start": 28,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9971978664398193,
+                "word": "Vesoul",
+                "start": 46,
+                "end": 53
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quitter Nointel-Mours pour Obermodern-Zutzendorf le dernier train",
+        "Départ": "Nointel-Mours",
+        "Arrivée": "Obermodern-Zutzendorf",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988839626312256,
+                "word": "Nointel-Mours",
+                "start": 7,
+                "end": 21
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988945722579956,
+                "word": "Obermodern-Zutzendorf",
+                "start": 26,
+                "end": 48
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Comment puis-je me rendre de l'Aéroport Charles de Gaulle 1 au centre-ville de Rambouillet ?",
+        "Départ": "Aéroport Charles de Gaulle 1",
+        "Arrivée": "Rambouillet",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9977738261222839,
+                "word": "Aéroport Charles de Gaulle 1",
+                "start": 31,
+                "end": 59
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985089302062988,
+                "word": "Rambouillet",
+                "start": 78,
+                "end": 90
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai besoin d'un train de Aillevillers à Albi qui part mercredi et arrive à Albi vers 19 heures.",
+        "Départ": "Aillevillers",
+        "Arrivée": "Albi",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987287521362305,
+                "word": "Aillevillers",
+                "start": 25,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987611174583435,
+                "word": "Albi",
+                "start": 40,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987894296646118,
+                "word": "Albi",
+                "start": 75,
+                "end": 80
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Je voudrais des informations sur les trains de Sisteron à Thaon partant jeudi soir.",
+        "Départ": "Sisteron",
+        "Arrivée": "Thaon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982190728187561,
+                "word": "Sisteron",
+                "start": 46,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9975690841674805,
+                "word": "Thaon",
+                "start": 57,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai besoin d'un train pas cher de Chantenay à Saint-Junien",
+        "Départ": "Chantenay",
+        "Arrivée": "Saint-Junien",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998569130897522,
+                "word": "Chantenay",
+                "start": 34,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986231923103333,
+                "word": "Saint-Junien",
+                "start": 46,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "liste des trains sans correspondance tôt mardi matin de Loches à Ars-sur-Moselle",
+        "Départ": "Loches",
+        "Arrivée": "Ars-sur-Moselle",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988412857055664,
+                "word": "Loches",
+                "start": 55,
+                "end": 62
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9989016652107239,
+                "word": "Ars-sur-Moselle",
+                "start": 64,
+                "end": 80
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le premier train qui part de Philadelphie à Sainte-Eulalie-Carbon-Blanc",
+        "Départ": "Philadelphie",
+        "Arrivée": "Sainte-Eulalie",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986729621887207,
+                "word": "Philadelphie",
+                "start": 37,
+                "end": 50
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988764524459839,
+                "word": "Sainte-Eulalie-Carbon-Blanc",
+                "start": 52,
+                "end": 80
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains pour Villeneuve-Loubet de Ay après 18 heures",
+        "Départ": "Ay",
+        "Arrivée": "Villeneuve-Loubet",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9859331250190735,
+                "word": "Villeneuve-Loubet de Ay",
+                "start": 31,
+                "end": 55
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train aller-retour de Bailleau-le-Pin à Longueau",
+        "Départ": "Bailleau-le-Pin",
+        "Arrivée": "Longueau",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988921880722046,
+                "word": "Bailleau-le-Pin",
+                "start": 38,
+                "end": 54
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985674619674683,
+                "word": "Longueau",
+                "start": 56,
+                "end": 65
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Les trains qui s'arrêtent à Lille Flandres avant midi en partant de Marseille Saint-Charles pour partir avec Charles",
+        "Départ": "Marseille Saint-Charles",
+        "Arrivée": "Lille Flandres",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.997508704662323,
+                "word": "Lille Flandres",
+                "start": 27,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9980829954147339,
+                "word": "Marseille Saint-Charles",
+                "start": 67,
+                "end": 91
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.6774523258209229,
+                "word": "Charles",
+                "start": 108,
+                "end": 116
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent de Brandérion à Gièvres après 10 h 24 du matin",
+        "Départ": "Brandérion",
+        "Arrivée": "Gièvres",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987411499023438,
+                "word": "Brandérion",
+                "start": 23,
+                "end": 34
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987504482269287,
+                "word": "Gièvres",
+                "start": 36,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "train du soir le plus court de Tanus à Tarare",
+        "Départ": "Tanus",
+        "Arrivée": "Tarare",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.915644109249115,
+                "word": "Tanus",
+                "start": 30,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.990231990814209,
+                "word": "Tarare",
+                "start": 38,
+                "end": 45
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Trains de Isles-Armentières-Congis à Durtol-Nohanent",
+        "Départ": "Isles-Armentières-Congis",
+        "Arrivée": "Durtol-Nohanent",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988810420036316,
+                "word": "Isles-Armentières-Congis",
+                "start": 9,
+                "end": 34
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998828113079071,
+                "word": "Durtol-Nohanent",
+                "start": 36,
+                "end": 52
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais voyager avec des compagnies sympa entre Thann et Lezennes à la Bien !",
+        "Départ": "Thann",
+        "Arrivée": "Lezennes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988111853599548,
+                "word": "Thann",
+                "start": 50,
+                "end": 56
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987983107566833,
+                "word": "Lezennes",
+                "start": 59,
+                "end": 68
+            },
+            {
+                "entity_group": "ORG",
+                "score": 0.46342360973358154,
+                "word": "Bien",
+                "start": 73,
+                "end": 78
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "tous les trains de Épinal à Pontarlier aller-retour après midi moins de 100",
+        "Départ": "Épinal",
+        "Arrivée": "Pontarlier",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987931847572327,
+                "word": "Épinal",
+                "start": 18,
+                "end": 25
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987583160400391,
+                "word": "Pontarlier",
+                "start": 27,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains dimanche allant de Jarville-la-Malgrange à La Bassée-Violaines en première classe sans correspondance partant après midi",
+        "Départ": "Jarville-la-Malgrange",
+        "Arrivée": "La Bassée-Violaines",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988733530044556,
+                "word": "Jarville-la-Malgrange",
+                "start": 40,
+                "end": 62
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988616108894348,
+                "word": "La Bassée-Violaines",
+                "start": 64,
+                "end": 84
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "des Yvris Noisy-le-Grand à Liesle",
+        "Départ": ",Liesle\"",
+        "Arrivée": "",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9927787184715271,
+                "word": "Yvris Noisy-le-Grand",
+                "start": 3,
+                "end": 24
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987625479698181,
+                "word": "Liesle",
+                "start": 26,
+                "end": 33
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Prades-Molitg-les-Bains à Les Quatre Roues lundi après-midi",
+        "Départ": "Prades-Molitg-les-Bains",
+        "Arrivée": "Les Quatre Roues",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988460540771484,
+                "word": "Prades-Molitg-les-Bains",
+                "start": 24,
+                "end": 48
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.997189462184906,
+                "word": "Les Quatre Roues",
+                "start": 50,
+                "end": 67
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrez-moi le train avec la plus petite capacité en sièges qui quitte Hombourg-Haut et arrive à La Brohinière le 14 juin",
+        "Départ": "Hombourg-Haut",
+        "Arrivée": "La Brohinière",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998810350894928,
+                "word": "Hombourg-Haut",
+                "start": 70,
+                "end": 84
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987472295761108,
+                "word": "La Brohinière",
+                "start": 96,
+                "end": 110
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "afficher tous les trains de Goncelin à Le Grand-Lemps le 31 juillet",
+        "Départ": "Goncelin",
+        "Arrivée": "Le Grand-Lemps",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9942407608032227,
+                "word": "Goncelin",
+                "start": 27,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998203456401825,
+                "word": "Le Grand-Lemps",
+                "start": 38,
+                "end": 53
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "y a-t-il des trains avant midi le 15 juin pour Lestelle-de-Saint-Martory de Lons-le-Saunier ?",
+        "Départ": "Lons-le-Saunier",
+        "Arrivée": "Lestelle-de-Saint-Martory",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988203644752502,
+                "word": "Lestelle-de-Saint-Martory",
+                "start": 46,
+                "end": 72
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988207817077637,
+                "word": "Lons-le-Saunier",
+                "start": 75,
+                "end": 91
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "liste des trains quotidiens de Culoz à Luçon",
+        "Départ": "Culoz",
+        "Arrivée": "Luçon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9953563809394836,
+                "word": "Culoz",
+                "start": 30,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9971823692321777,
+                "word": "Luçon",
+                "start": 38,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Dans un train de Port-de-Bouc à Maisons-Laffitte qui part avant 8 heures du matin existe-t-il un tel train ?",
+        "Départ": "Port-de-Bouc",
+        "Arrivée": "Maisons-Laffitte",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988308548927307,
+                "word": "Port-de-Bouc",
+                "start": 16,
+                "end": 29
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988452792167664,
+                "word": "Maisons-Laffitte",
+                "start": 31,
+                "end": 48
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le moyen le plus cher pour me rendre à Saint-Dalmas de Tende de Rodez",
+        "Départ": "Rodez",
+        "Arrivée": "Saint-Dalmas de Tende",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9924049973487854,
+                "word": "Saint-Dalmas de Tende de Rodez",
+                "start": 47,
+                "end": 78
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "veuillez lister tous les trains partant de Saint-Martin du Touch pour Saint-Mathurin-sur-Loire",
+        "Départ": "Saint-Martin du Touch",
+        "Arrivée": "Saint-Mathurin-sur-Loire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986861348152161,
+                "word": "Saint-Martin du Touch",
+                "start": 42,
+                "end": 64
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988300800323486,
+                "word": "Saint-Mathurin-sur-Loire",
+                "start": 69,
+                "end": 94
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais voir les trains de Villers-sur-Mer à Macau s'il vous plaît",
+        "Départ": "Villers-sur-Mer",
+        "Arrivée": "Macau",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986991882324219,
+                "word": "Villers-sur-Mer",
+                "start": 29,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.997907280921936,
+                "word": "Macau",
+                "start": 47,
+                "end": 53
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "La Rivière de Mansac à Laguépie",
+        "Départ": "La Rivière de Mansac",
+        "Arrivée": "Laguépie",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9268053770065308,
+                "word": "Rivière de Mansac",
+                "start": 2,
+                "end": 20
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9979117512702942,
+                "word": "Laguépie",
+                "start": 22,
+                "end": 31
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "veuillez lister les trains du vendredi après-midi de San José à Les Clairières de Verneuil",
+        "Départ": "San José",
+        "Arrivée": "Les Clairières de Verneuil",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9967989921569824,
+                "word": "San José",
+                "start": 52,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.968299388885498,
+                "word": "Les Clairières de Verneuil",
+                "start": 63,
+                "end": 90
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrer le premier train de Tournan-en-Brie à Le Vert de Maisons mercredi",
+        "Départ": "Tournan-en-Brie",
+        "Arrivée": "Le Vert de Maisons",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988123774528503,
+                "word": "Tournan-en-Brie",
+                "start": 27,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9658161401748657,
+                "word": "Le Vert de Maisons",
+                "start": 45,
+                "end": 64
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains de Argentan à Le Theil-de-Bretagne vendredi sur American Airlines",
+        "Départ": "Argentan",
+        "Arrivée": "Le Theil-de-Bretagne",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987913370132446,
+                "word": "Argentan",
+                "start": 15,
+                "end": 24
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988710284233093,
+                "word": "Le Theil-de-Bretagne",
+                "start": 26,
+                "end": 47
+            },
+            {
+                "entity_group": "ORG",
+                "score": 0.9941493272781372,
+                "word": "American Airlines",
+                "start": 60,
+                "end": 78
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi une liste des trains de Monnerville à Sceaux-Boëssé pour le 30 août",
+        "Départ": "Monnerville",
+        "Arrivée": "Sceaux-Boëssé",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9974988102912903,
+                "word": "Monnerville",
+                "start": 34,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983531832695007,
+                "word": "Sceaux-Boëssé",
+                "start": 48,
+                "end": 62
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi le train le moins cher de Le Pont-de-Claix à Le Bras de Fer le dimanche après midi",
+        "Départ": "Le Pont-de-Claix",
+        "Arrivée": "Le Bras de Fer",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.99887615442276,
+                "word": "Le Pont-de-Claix",
+                "start": 36,
+                "end": 53
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987468719482422,
+                "word": "Le Bras de Fer",
+                "start": 55,
+                "end": 70
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Quels trains y a-t-il de Cormeilles-en-Parisis à Le Dorat ?",
+        "Départ": "Cormeilles-en-Parisis",
+        "Arrivée": "Le Dorat",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998863697052002,
+                "word": "Cormeilles-en-Parisis",
+                "start": 24,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998714029788971,
+                "word": "Le Dorat",
+                "start": 48,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je veux un train pour La Rivière de Mansac de La Tour-du-Pin qui ait au moins un arrêt",
+        "Départ": "La Tour-du-Pin",
+        "Arrivée": "La Rivière de Mansac",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9906594157218933,
+                "word": "La Rivière de Mansac",
+                "start": 21,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986459016799927,
+                "word": "La Tour-du-Pin",
+                "start": 45,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel train avez-vous de Méry-sur-Oise à Pernes-Camblain le matin du 27 août",
+        "Départ": "Méry-sur-Oise",
+        "Arrivée": "Pernes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988576769828796,
+                "word": "Méry-sur-Oise",
+                "start": 23,
+                "end": 37
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988608360290527,
+                "word": "Pernes-Camblain",
+                "start": 39,
+                "end": 55
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains de Vierzy à Fouilloy arrivent avant 20 heures à Fouilloy",
+        "Départ": "Vierzy",
+        "Arrivée": "Fouilloy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9973143935203552,
+                "word": "Vierzy",
+                "start": 15,
+                "end": 22
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9977849125862122,
+                "word": "Fouilloy",
+                "start": 24,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9979138970375061,
+                "word": "Fouilloy",
+                "start": 60,
+                "end": 69
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Prissé-la-Charrière à Marseille Saint-Charles pour jeudi soir ou vendredi",
+        "Départ": "Prissé-la-Charrière",
+        "Arrivée": "Marseille Saint-Charles",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988017678260803,
+                "word": "Prissé-la-Charrière",
+                "start": 24,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986262321472168,
+                "word": "Marseille Saint-Charles",
+                "start": 46,
+                "end": 70
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Pourriez-vous me trouver un train de Vélines à Templeuve qui s'arrête à Marquillies",
+        "Départ": "Vélines",
+        "Arrivée": "Templeuve",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982268810272217,
+                "word": "Vélines",
+                "start": 36,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9980208873748779,
+                "word": "Templeuve",
+                "start": 46,
+                "end": 56
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998063325881958,
+                "word": "Marquillies",
+                "start": 71,
+                "end": 83
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de La Tour-de-Salvagny à La Plaine Stade de France-Saint-Denis-Aubervilliers",
+        "Départ": "La Tour-de-Salvagny",
+        "Arrivée": "La Plaine Stade de France-Saint-Denis-Aubervilliers",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988611340522766,
+                "word": "La Tour-de-Salvagny",
+                "start": 9,
+                "end": 29
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998835563659668,
+                "word": "La Plaine Stade de France-Saint-Denis-Aubervilliers",
+                "start": 31,
+                "end": 83
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Y a-t-il des trains de Bourges à Provenchères-sur-Fave avec des arrêts ?",
+        "Départ": "Bourges",
+        "Arrivée": "Provenchères-sur-Fave",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9981295466423035,
+                "word": "Bourges",
+                "start": 22,
+                "end": 30
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988698959350586,
+                "word": "Provenchères-sur-Fave",
+                "start": 32,
+                "end": 54
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de Dambach-la-Ville à Croix-Wasquehal",
+        "Départ": "Dambach-la-Ville",
+        "Arrivée": "Croix-Wasquehal",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988921284675598,
+                "word": "Dambach-la-Ville",
+                "start": 9,
+                "end": 26
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987835884094238,
+                "word": "Croix-Wasquehal",
+                "start": 28,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Crouy-sur-Ourcq à Dambach-la-Ville",
+        "Départ": "Crouy-sur-Ourcq",
+        "Arrivée": "Dambach-la-Ville",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988836050033569,
+                "word": "Crouy-sur-Ourcq",
+                "start": 24,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988662600517273,
+                "word": "Dambach-la-Ville",
+                "start": 42,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "de Varilhes à Lamagistère DC le lundi 11 novembre 1991",
+        "Départ": "Varilhes",
+        "Arrivée": "Lamagistère DC",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9681082963943481,
+                "word": "Varilhes",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9930950403213501,
+                "word": "Lamagistère DC",
+                "start": 13,
+                "end": 28
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je suis intéressé par un train de Herblay à Pont-de-Veyle",
+        "Départ": "Herblay",
+        "Arrivée": "Pont-de-Veyle",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988714456558228,
+                "word": "Herblay",
+                "start": 33,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988880753517151,
+                "word": "Pont-de-Veyle",
+                "start": 43,
+                "end": 57
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "donne-moi des trains de Issé à Provenchères-sur-Fave",
+        "Départ": "Issé",
+        "Arrivée": "Provenchères-sur-Fave",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982906579971313,
+                "word": "Issé",
+                "start": 23,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988138675689697,
+                "word": "Provenchères-sur-Fave",
+                "start": 30,
+                "end": 52
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train ce dimanche de Culmont-Chalindrey à Dardilly Les Mouilles et je préférerais un train du matin",
+        "Départ": "Culmont-Chalindrey",
+        "Arrivée": "Dardilly Les Mouilles",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988721609115601,
+                "word": "Culmont-Chalindrey",
+                "start": 37,
+                "end": 56
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988271594047546,
+                "word": "Dardilly Les Mouilles",
+                "start": 58,
+                "end": 80
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "donnez-moi des trains au départ de Dives-sur-Mer Port Guillaume vers Dombasle-sur-Meurthe le samedi et le dimanche",
+        "Départ": "Dives-sur-Mer Port Guillaume",
+        "Arrivée": "Dombasle-sur-Meurthe",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988447427749634,
+                "word": "Dives-sur-Mer Port Guillaume",
+                "start": 34,
+                "end": 63
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988358616828918,
+                "word": "Dombasle-sur-Meurthe",
+                "start": 68,
+                "end": 89
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Dis moi pour un Die à Dingé",
+        "Départ": "Die",
+        "Arrivée": "Dingé",
+        "NER_Results": [
+            {
+                "entity_group": "MISC",
+                "score": 0.5865872502326965,
+                "word": "Die",
+                "start": 15,
+                "end": 19
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.7518181800842285,
+                "word": "Dingé",
+                "start": 21,
+                "end": 27
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi le premier train de Machecoul à Dourdan La Forêt en passant par la forêt",
+        "Départ": "Machecoul",
+        "Arrivée": "Dourdan La Forêt",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988142848014832,
+                "word": "Machecoul",
+                "start": 30,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985736012458801,
+                "word": "Dourdan La Forêt",
+                "start": 42,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "un Lille Porte de Douai à Douai",
+        "Départ": "Lille Porte de Douai",
+        "Arrivée": "Douai",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9941489100456238,
+                "word": "Lille Porte de Douai",
+                "start": 2,
+                "end": 23
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9844256043434143,
+                "word": "Douai",
+                "start": 25,
+                "end": 31
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "De Douai à Lille Porte",
+        "Départ": "Douai",
+        "Arrivée": "Lille Porte de Douai",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987274408340454,
+                "word": "Douai",
+                "start": 2,
+                "end": 8
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.8439584374427795,
+                "word": "Lille Porte",
+                "start": 10,
+                "end": 22
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Puis-je avoir une liste des trains de Livron-sur-Drôme à Loriol-sur-Drôme en partant dans la soirée ?",
+        "Départ": "Livron-sur-Drôme",
+        "Arrivée": "Loriol-sur-Drôme",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988619685173035,
+                "word": "Livron-sur-Drôme",
+                "start": 37,
+                "end": 54
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988769292831421,
+                "word": "Loriol-sur-Drôme",
+                "start": 56,
+                "end": 73
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains de bétaille à Bessay-sur-Allier depuis Moulins sur Allier",
+        "Départ": "Moulins sur Allier",
+        "Arrivée": "Bessay-sur-Allier",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998600423336029,
+                "word": "Bessay-sur-Allier",
+                "start": 40,
+                "end": 58
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9953397512435913,
+                "word": "Moulins sur Allier",
+                "start": 65,
+                "end": 84
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "premiers trains de Saulon à Moult-Argences un jeudi",
+        "Départ": "Saulon",
+        "Arrivée": "Moult-Argences",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9970811605453491,
+                "word": "Saulon",
+                "start": 18,
+                "end": 25
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998264491558075,
+                "word": "Moult-Argences",
+                "start": 27,
+                "end": 42
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai besoin d'un train de Argenteuil à Montreuil-sur-Thérain qui part tôt le matin",
+        "Départ": "Argenteuil",
+        "Arrivée": "Montreuil-sur-Thérain",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988113641738892,
+                "word": "Argenteuil",
+                "start": 25,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988499283790588,
+                "word": "Montreuil-sur-Thérain",
+                "start": 38,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Verrey-sous-Salmaise à Sarcelles-Saint-Brice",
+        "Départ": "Verrey-sous-Salmaise",
+        "Arrivée": "Sarcelles-Saint-Brice",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988378286361694,
+                "word": "Verrey-sous-Salmaise",
+                "start": 24,
+                "end": 45
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988327026367188,
+                "word": "Sarcelles-Saint-Brice",
+                "start": 47,
+                "end": 69
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "tous les trains de Provins à Moûtiers-Salins-Brides-les-Bains",
+        "Départ": "Provins",
+        "Arrivée": "Moûtiers-Salins-Brides-les-Bains",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988831877708435,
+                "word": "Provins",
+                "start": 18,
+                "end": 26
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987891912460327,
+                "word": "Moûtiers-Salins-Brides-les-Bains",
+                "start": 28,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains lundi de Philadelphie à Montrabé après 7 heures du matin",
+        "Départ": "Philadelphie",
+        "Arrivée": "Montrabé",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.997687578201294,
+                "word": "Philadelphie",
+                "start": 30,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9973788261413574,
+                "word": "Montrabé",
+                "start": 45,
+                "end": 54
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Mulhouse à Mulhouse Dornach",
+        "Départ": "Mulhouse",
+        "Arrivée": "Mulhouse Dornach",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9962542057037354,
+                "word": "Mulhouse",
+                "start": 24,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9964584112167358,
+                "word": "Mulhouse Dornach",
+                "start": 35,
+                "end": 52
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Je dois aller de Vidauban à Nancy et revenir dans la même journée, trouvez-moi le premier train de Vidauban",
+        "Départ": "Vidauban",
+        "Arrivée": "Nancy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9977739453315735,
+                "word": "Vidauban",
+                "start": 16,
+                "end": 25
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9978553652763367,
+                "word": "Nancy",
+                "start": 27,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9975118041038513,
+                "word": "Vidauban",
+                "start": 98,
+                "end": 107
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains aller simple de Nanterre La Folie à Nanterre Université mercredi",
+        "Départ": "Nanterre La Folie",
+        "Arrivée": "Nanterre Université",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9982923865318298,
+                "word": "Nanterre La Folie",
+                "start": 37,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.6442652940750122,
+                "word": "Nanterre Université",
+                "start": 57,
+                "end": 77
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi tous les trains de Grandvillars à Les Ramassiers demain qui servent un repas",
+        "Départ": "Grandvillars",
+        "Arrivée": "Les Ramassiers",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9969779253005981,
+                "word": "Grandvillars",
+                "start": 29,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.997174859046936,
+                "word": "Les Ramassiers",
+                "start": 44,
+                "end": 59
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "afficher tous les trains de Saint-Piat à La Garenne-Colombes",
+        "Départ": "Saint-Piat",
+        "Arrivée": "La Garenne-Colombes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9985833168029785,
+                "word": "Saint-Piat",
+                "start": 27,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987666010856628,
+                "word": "La Garenne-Colombes",
+                "start": 40,
+                "end": 60
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je souhaite voyager de Villers-Cotterêts à Chanac veuillez trouver une compagnie aérienne pour moi",
+        "Départ": "Villers-Cotterêts",
+        "Arrivée": "Chanac",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988942742347717,
+                "word": "Villers-Cotterêts",
+                "start": 22,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988453388214111,
+                "word": "Chanac",
+                "start": 42,
+                "end": 49
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains de Neuillé-Pont-Pierre à Neuilly-Porte Maillot s'arrêtent également à Neuilly Porte Maillot RER E",
+        "Départ": "Neuillé-Pont-Pierre",
+        "Arrivée": "Neuilly-Porte Maillot",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998867392539978,
+                "word": "Neuillé-Pont-Pierre",
+                "start": 15,
+                "end": 35
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988698959350586,
+                "word": "Neuilly-Porte Maillot",
+                "start": 37,
+                "end": 59
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982432126998901,
+                "word": "Neuilly Porte Maillot RER E",
+                "start": 82,
+                "end": 110
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains mardi matin de Nevers Le Banlay à Puyoô",
+        "Départ": "Nevers Le Banlay",
+        "Arrivée": "Puyoô",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987627863883972,
+                "word": "Nevers Le Banlay",
+                "start": 36,
+                "end": 53
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986836314201355,
+                "word": "Puyoô",
+                "start": 55,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Y a-t-il des trains de Pont du Garigliano-Hôpital Européen Georges Pompidou à Durtol-Nohanent ?",
+        "Départ": "Pont du Garigliano-Hôpital Européen Georges Pompidou",
+        "Arrivée": "Durtol-Nohanent",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986089468002319,
+                "word": "Pont du Garigliano-Hôpital Européen Georges Pompidou",
+                "start": 22,
+                "end": 75
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987513422966003,
+                "word": "Durtol-Nohanent",
+                "start": 77,
+                "end": 93
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le moyen le moins cher pour voyager de Philadelphie à Villars-les-Dombes",
+        "Départ": "Philadelphie",
+        "Arrivée": "Villars-les-Dombes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9981662631034851,
+                "word": "Philadelphie",
+                "start": 47,
+                "end": 60
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988399744033813,
+                "word": "Villars-les-Dombes",
+                "start": 62,
+                "end": 81
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister tous les trains sans correspondance de Mourmelon-le-Petit à La Grand-Combe avant 17 heures le mardi",
+        "Départ": "Mourmelon-le-Petit",
+        "Arrivée": "La",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988263845443726,
+                "word": "Mourmelon-le-Petit",
+                "start": 45,
+                "end": 64
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988285899162292,
+                "word": "La Grand-Combe",
+                "start": 66,
+                "end": 81
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Petit trajet Pont Petit à Petit Vaux vendredi",
+        "Départ": "Pont Petit",
+        "Arrivée": "Petit Vaux",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9985671043395996,
+                "word": "Pont Petit",
+                "start": 12,
+                "end": 23
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9984449744224548,
+                "word": "Petit Vaux",
+                "start": 25,
+                "end": 36
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trouver un train Berlaimont à Oloron-Sainte-Marie qui fait correspondance à Issy Val de Seine",
+        "Départ": "Berlaimont",
+        "Arrivée": "Oloron-Sainte-Marie",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988666772842407,
+                "word": "Berlaimont",
+                "start": 16,
+                "end": 27
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988847374916077,
+                "word": "Oloron-Sainte-Marie",
+                "start": 29,
+                "end": 49
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987577199935913,
+                "word": "Issy Val de Seine",
+                "start": 75,
+                "end": 93
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de Pont-à-Mousson à Remise à Jorelle",
+        "Départ": "Pont-à-Mousson",
+        "Arrivée": "Remise à Jorelle",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988229274749756,
+                "word": "Pont-à-Mousson",
+                "start": 9,
+                "end": 24
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9971022605895996,
+                "word": "Remise à Jorelle",
+                "start": 26,
+                "end": 43
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Landrecies à Rive-de-Gier DC le mercredi",
+        "Départ": "Landrecies",
+        "Arrivée": "Rive-de-Gier",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.995862603187561,
+                "word": "Landrecies",
+                "start": 24,
+                "end": 35
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9957370162010193,
+                "word": "Rive-de-Gier DC",
+                "start": 37,
+                "end": 53
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "liste de tous les trains de Vis à Marles à Pont-à-Vendin qui arrivent le mercredi après 16 heures",
+        "Départ": "Vis à Marles",
+        "Arrivée": "Pont-à-Vendin",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9977686405181885,
+                "word": "Vis",
+                "start": 27,
+                "end": 31
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9973524808883667,
+                "word": "Marles",
+                "start": 33,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987896084785461,
+                "word": "Pont-à-Vendin",
+                "start": 42,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais aller de Chalon-sur-Saône à Saint-Gilles Lycée Haut-Rhin à 21 heures samedi soir",
+        "Départ": "Chalon-sur-Saône",
+        "Arrivée": "Saint-Gilles",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988211393356323,
+                "word": "Chalon-sur-Saône",
+                "start": 19,
+                "end": 36
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9953274726867676,
+                "word": "Saint-Gilles Lycée Haut-Rhin",
+                "start": 38,
+                "end": 67
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de l'est de Pont de Dore à Pont de Briques",
+        "Départ": "Pont de Dore",
+        "Arrivée": "Pont de Briques",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9984973073005676,
+                "word": "Pont de Dore",
+                "start": 33,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983744025230408,
+                "word": "Pont de Briques",
+                "start": 48,
+                "end": 64
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains y a-t-il dimanche de Pont de Bois à Pont de l'Alma",
+        "Départ": "Pont de Bois",
+        "Arrivée": "Pont de l'Alma",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987275004386902,
+                "word": "Pont de Bois",
+                "start": 33,
+                "end": 46
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9986502528190613,
+                "word": "Pont de l'Alma",
+                "start": 48,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Pont-à-Mousson depuis Pont de la Deûle",
+        "Départ": "Pont de la Deûle",
+        "Arrivée": "Pont-à-Mousson",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9429864287376404,
+                "word": "Pont-à-Mousson",
+                "start": 0,
+                "end": 14
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9977023005485535,
+                "word": "Pont de la Deûle",
+                "start": 21,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Pont de Sallaumines à Pont de la Deûle",
+        "Départ": "Pont de Sallaumines",
+        "Arrivée": "Pont de la Deûle",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9016098976135254,
+                "word": "Pont de Sallaumines",
+                "start": 0,
+                "end": 19
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.992766797542572,
+                "word": "Pont de la Deûle",
+                "start": 21,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "y a-t-il un train de Arbanats à Les Sables Blancs",
+        "Départ": "Arbanats",
+        "Arrivée": "Les Sables Blancs",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.8465455174446106,
+                "word": "Arbanats",
+                "start": 20,
+                "end": 29
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.997381329536438,
+                "word": "Les Sables Blancs",
+                "start": 31,
+                "end": 49
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Avez-vous un train l'après-midi partant de Phalempin à Cernay (Haut-Rhin) avec une correspondance à Lesparre-Médoc ?",
+        "Départ": "Phalempin",
+        "Arrivée": "Cernay",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987582564353943,
+                "word": "Phalempin",
+                "start": 42,
+                "end": 52
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998809814453125,
+                "word": "Cernay",
+                "start": 54,
+                "end": 61
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987302422523499,
+                "word": "Haut-Rhin",
+                "start": 63,
+                "end": 72
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988117814064026,
+                "word": "Lesparre-Médoc",
+                "start": 99,
+                "end": 114
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi une liste de trains de Sainte-Bazeille à Pont de Lignon le 22 juillet",
+        "Départ": "Sainte-Bazeille",
+        "Arrivée": "Pont de Lignon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986562728881836,
+                "word": "Sainte-Bazeille",
+                "start": 33,
+                "end": 49
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983202219009399,
+                "word": "Pont de Lignon",
+                "start": 51,
+                "end": 66
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "maintenant, j'aimerais que les trains de Saint-Sulpice (Tarn) à Saint-Sulpice-Izon partent entre 16h30 et 17h30",
+        "Départ": "Saint-Sulpice (Tarn)",
+        "Arrivée": "Saint-Sulpice-Izon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987168312072754,
+                "word": "Saint-Sulpice",
+                "start": 40,
+                "end": 54
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987521171569824,
+                "word": "Tarn",
+                "start": 56,
+                "end": 60
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987867474555969,
+                "word": "Saint-Sulpice-Izon",
+                "start": 63,
+                "end": 82
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Quels trains économiques sont disponibles de Nonancourt à Estressin le 17 décembre",
+        "Départ": "Nonancourt",
+        "Arrivée": "Estressin",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987747669219971,
+                "word": "Nonancourt",
+                "start": 44,
+                "end": 55
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9987524151802063,
+                "word": "Estressin",
+                "start": 57,
+                "end": 67
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je voudrais un train de Sainte-Pazanne à Campagnac-Saint-Geniez",
+        "Départ": "Sainte-Pazanne",
+        "Arrivée": "Campagnac-Saint-Geniez",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987987279891968,
+                "word": "Sainte-Pazanne",
+                "start": 23,
+                "end": 38
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988281726837158,
+                "word": "Campagnac-Saint-Geniez",
+                "start": 40,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Quels trains y a-t-il le mercredi soir ou le jeudi matin de Reignac-sur-Indre à Sierck-les-Bains ?",
+        "Départ": "Reignac-sur-Indre",
+        "Arrivée": "Sierck-les-Bains",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988691210746765,
+                "word": "Reignac-sur-Indre",
+                "start": 59,
+                "end": 77
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988906979560852,
+                "word": "Sierck-les-Bains",
+                "start": 79,
+                "end": 96
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trouvez-moi un train au départ de Malling arrivée à Ballan-Miré avec correspondance à Théoule-sur-Mer",
+        "Départ": "Malling",
+        "Arrivée": "Ballan-Miré",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986534118652344,
+                "word": "Malling",
+                "start": 33,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998802661895752,
+                "word": "Ballan-Miré",
+                "start": 51,
+                "end": 63
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988470077514648,
+                "word": "Théoule-sur-Mer",
+                "start": 85,
+                "end": 101
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Quels trains sont disponibles entre Vanves-Malakoff et Brive-la-Gaillarde arrivant à 6h30",
+        "Départ": "Vanves-Malakoff",
+        "Arrivée": "Brive-la-Gaillarde",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998854398727417,
+                "word": "Vanves-Malakoff",
+                "start": 35,
+                "end": 51
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988803267478943,
+                "word": "Brive-la-Gaillarde",
+                "start": 54,
+                "end": 73
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le train le moins cher de Beauvais à Marseille-en-Beauvaisis",
+        "Départ": "Beauvais",
+        "Arrivée": "Marseille-en-Beauvaisis",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9983698725700378,
+                "word": "Beauvais",
+                "start": 34,
+                "end": 43
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988406896591187,
+                "word": "Marseille-en-Beauvaisis",
+                "start": 45,
+                "end": 69
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains y a-t-il de Béthune à Massy-Palaiseau sur le continent",
+        "Départ": "Béthune",
+        "Arrivée": "Massy-Palaiseau",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988508224487305,
+                "word": "Béthune",
+                "start": 24,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988710284233093,
+                "word": "Massy-Palaiseau",
+                "start": 34,
+                "end": 50
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Quels trains Européen propose-t-il de Pont-de-Buis à Erdre Active mardi",
+        "Départ": "Pont-de-Buis",
+        "Arrivée": "Erdre Active",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.8143684267997742,
+                "word": "Européen",
+                "start": 12,
+                "end": 21
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988686442375183,
+                "word": "Pont-de-Buis",
+                "start": 37,
+                "end": 50
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9944930076599121,
+                "word": "Erdre Active",
+                "start": 52,
+                "end": 65
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "puis-je voyager de Bedous à Chessy Magalas",
+        "Départ": "Bedous",
+        "Arrivée": "Chessy Magalas",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9979285001754761,
+                "word": "Bedous",
+                "start": 18,
+                "end": 25
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983083605766296,
+                "word": "Chessy Magalas",
+                "start": 27,
+                "end": 42
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "trains de Étaples-Le Touquet à Esvres sur Indre",
+        "Départ": "Étaples-Le Touquet",
+        "Arrivée": "Esvres sur Indre",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988946914672852,
+                "word": "Étaples-Le Touquet",
+                "start": 9,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9960045218467712,
+                "word": "Esvres sur Indre",
+                "start": 30,
+                "end": 47
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais savoir si vous avez des trains pour Sartrouville depuis Étain",
+        "Départ": "Étain",
+        "Arrivée": "Sartrouville",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9981694221496582,
+                "word": "Sartrouville",
+                "start": 46,
+                "end": 59
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9981577396392822,
+                "word": "Étain",
+                "start": 66,
+                "end": 72
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Eu à Le Mans",
+        "Départ": "Eu",
+        "Arrivée": "Le Mans",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.8767747282981873,
+                "word": "Le Mans",
+                "start": 4,
+                "end": 12
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "je suis intéressé par un train sur Gap d'Issoire",
+        "Départ": "Issoire",
+        "Arrivée": "Gap",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9852724075317383,
+                "word": "Gap d'Issoire",
+                "start": 34,
+                "end": 48
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains partent d'Istres à Ingrandes-Le Fresne-sur-Loire le soir",
+        "Départ": "Istres",
+        "Arrivée": "Ingrandes-Le Fresne-sur-Loire",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988803863525391,
+                "word": "Istres",
+                "start": 23,
+                "end": 29
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988873600959778,
+                "word": "Ingrandes-Le Fresne-sur-Loire",
+                "start": 31,
+                "end": 61
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "cherche un train sans correspondance du dimanche de Jacques-Monod-La Demi-Lieue à Jœuf",
+        "Départ": "Jacques-Monod-La Demi-Lieue",
+        "Arrivée": "Jœuf",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9986066222190857,
+                "word": "Jacques-Monod-La Demi-Lieue",
+                "start": 51,
+                "end": 79
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982954263687134,
+                "word": "Jœuf",
+                "start": 81,
+                "end": 86
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister tous les trains d'Itxassou à L'Abbaye",
+        "Départ": "Itxassou",
+        "Arrivée": "L'Abbaye",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9983111619949341,
+                "word": "Itxassou",
+                "start": 25,
+                "end": 33
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9961169362068176,
+                "word": "L'Abbaye",
+                "start": 35,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais voir des trains de Saint-Michel-sur-Orge à La Baule Les Pins",
+        "Départ": "Saint-Michel-sur-Orge",
+        "Arrivée": "La Baule Les Pins",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988948702812195,
+                "word": "Saint-Michel-sur-Orge",
+                "start": 29,
+                "end": 51
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998831570148468,
+                "word": "La Baule Les Pins",
+                "start": 53,
+                "end": 71
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Le train Saint-Omer La Barasse",
+        "Départ": "Saint-Omer",
+        "Arrivée": "La Barasse",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9410969018936157,
+                "word": "train Saint-Omer La Barasse",
+                "start": 2,
+                "end": 30
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Afficher tous les trains de correspondance de Saint-Romain-le-Puy à La Coquille",
+        "Départ": "Saint-Romain-le-Puy",
+        "Arrivée": "La Coquille",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988309741020203,
+                "word": "Saint-Romain-le-Puy",
+                "start": 45,
+                "end": 65
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983063340187073,
+                "word": "La Coquille",
+                "start": 67,
+                "end": 79
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister les trains quotidiens de Vénissieux à La Gouesnière-Cancale-Saint-Méloir-des-Ondes",
+        "Départ": "Vénissieux",
+        "Arrivée": "La Gouesnière-Cancale-Saint-Méloir-des-Ondes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988818168640137,
+                "word": "Vénissieux",
+                "start": 31,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988394975662231,
+                "word": "La Gouesnière-Cancale-Saint-Méloir-des-Ondes",
+                "start": 44,
+                "end": 89
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'ai besoin d'un train de Saint-Médard-sur-Ille à La Loupe à la louche",
+        "Départ": "Saint-Médard-sur-Ille",
+        "Arrivée": "La Loupe",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988266825675964,
+                "word": "Saint-Médard-sur-Ille",
+                "start": 25,
+                "end": 47
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9985525012016296,
+                "word": "La Loupe",
+                "start": 49,
+                "end": 58
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "J'aimerais réserver un train de Allassac à Cergy le Haut le premier juin",
+        "Départ": "Allassac",
+        "Arrivée": "Cergy le Haut",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9984190464019775,
+                "word": "Allassac",
+                "start": 31,
+                "end": 40
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998770534992218,
+                "word": "Cergy le Haut",
+                "start": 42,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montrez-moi tous les trains directs uniquement de Boisseaux à Pont-du-Château qui arrivent avant 10 heures, heure locale",
+        "Départ": "Boisseaux",
+        "Arrivée": "Pont-du-Château",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.998210608959198,
+                "word": "Boisseaux",
+                "start": 49,
+                "end": 59
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.998763382434845,
+                "word": "Pont-du-Château",
+                "start": 61,
+                "end": 77
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi la route de Route de Launaguet à La Ricamarie le 16 juin",
+        "Départ": "Launaguet",
+        "Arrivée": "La Ricamarie",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9960118532180786,
+                "word": "Route",
+                "start": 22,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9952439665794373,
+                "word": "Launaguet",
+                "start": 31,
+                "end": 41
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9970976710319519,
+                "word": "La Ricamarie",
+                "start": 43,
+                "end": 56
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister tous les trains allant de Rambouillet à La Rivière-Drugeon après 6 heures le mercredi et avant 7 heures le jeudi",
+        "Départ": "Rambouillet",
+        "Arrivée": "La Rivière-Drugeon",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988563656806946,
+                "word": "Rambouillet",
+                "start": 32,
+                "end": 44
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988652467727661,
+                "word": "La Rivière-Drugeon",
+                "start": 46,
+                "end": 65
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "de Drancy à Fors avec arret détente",
+        "Départ": "Drancy",
+        "Arrivée": "Fors",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9983338117599487,
+                "word": "Drancy",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982743263244629,
+                "word": "Fors",
+                "start": 11,
+                "end": 16
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "montre-moi les trains de Franconville-Le Plessis-Bouchard à Francheville",
+        "Départ": "Franconville-Le Plessis-Bouchard",
+        "Arrivée": "Francheville",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988374710083008,
+                "word": "Franconville-Le Plessis-Bouchard",
+                "start": 24,
+                "end": 57
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982589483261108,
+                "word": "Francheville",
+                "start": 59,
+                "end": 72
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'ai besoin d'un train de Tampa à Montréal",
+        "Départ": "Tampa",
+        "Arrivée": "Montréal",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9979124069213867,
+                "word": "Tampa",
+                "start": 25,
+                "end": 31
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9979546070098877,
+                "word": "Montréal",
+                "start": 33,
+                "end": 42
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "qu'est-ce que tu as de Foëcy à Firminy samedi matin",
+        "Départ": "Foëcy",
+        "Arrivée": "Firminy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9949250221252441,
+                "word": "Foëcy",
+                "start": 22,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9972370862960815,
+                "word": "Firminy",
+                "start": 30,
+                "end": 38
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "lister tous les trains pour Saint-Vit à Jouy avec le nombre maximum d'arrêts",
+        "Départ": "Saint-Vit",
+        "Arrivée": "Jouy",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9983896017074585,
+                "word": "Saint-Vit",
+                "start": 27,
+                "end": 37
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9982197284698486,
+                "word": "Jouy",
+                "start": 39,
+                "end": 44
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels sont les trains de Corrèze à Vendenheim lundi matin",
+        "Départ": "Corrèze",
+        "Arrivée": "Vendenheim",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.997018575668335,
+                "word": "Corrèze",
+                "start": 24,
+                "end": 32
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9968945980072021,
+                "word": "Vendenheim",
+                "start": 34,
+                "end": 45
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quel est le train le moins cher de Rouillé à Ebblinghem",
+        "Départ": "Rouillé",
+        "Arrivée": "Ebblinghem",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9977781772613525,
+                "word": "Rouillé",
+                "start": 34,
+                "end": 42
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9981144666671753,
+                "word": "Ebblinghem",
+                "start": 44,
+                "end": 55
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "de Remise à Jorelle à Ballancourt-sur-Essonne",
+        "Départ": "Remise à Jorelle",
+        "Arrivée": "Ballancourt-sur-Essonne",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9929583668708801,
+                "word": "Remise à Jorelle",
+                "start": 2,
+                "end": 19
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988153576850891,
+                "word": "Ballancourt-sur-Essonne",
+                "start": 21,
+                "end": 45
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "Y a-t-il des trains de Lardy à Pauillac s'arrêtant à Chézy-sur-Marne ?",
+        "Départ": "Lardy",
+        "Arrivée": "Pauillac",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9979991912841797,
+                "word": "Lardy",
+                "start": 22,
+                "end": 28
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9980663061141968,
+                "word": "Pauillac",
+                "start": 30,
+                "end": 39
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988846182823181,
+                "word": "Chézy-sur-Marne",
+                "start": 52,
+                "end": 68
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "j'aimerais voyager de Ailly-sur-Somme à Aix-les-Bains le Revard",
+        "Départ": "Ailly-sur-Somme",
+        "Arrivée": "Aix-les-Bains le Revard",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9987903237342834,
+                "word": "Ailly-sur-Somme",
+                "start": 21,
+                "end": 37
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9983639717102051,
+                "word": "Aix-les-Bains le Revard",
+                "start": 39,
+                "end": 63
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    },
+    {
+        "Phrase": "quels trains voyagent d'Alençon à Corbeil-Essonnes",
+        "Départ": "Alençon",
+        "Arrivée": "Corbeil-Essonnes",
+        "NER_Results": [
+            {
+                "entity_group": "LOC",
+                "score": 0.9988555908203125,
+                "word": "Alençon",
+                "start": 24,
+                "end": 31
+            },
+            {
+                "entity_group": "LOC",
+                "score": 0.9988770484924316,
+                "word": "Corbeil-Essonnes",
+                "start": 33,
+                "end": 50
+            }
+        ],
+        "Depart_Found": false,
+        "Arrivee_Found": false
+    }
+]
