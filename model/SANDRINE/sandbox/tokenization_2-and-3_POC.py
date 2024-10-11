@@ -12,10 +12,9 @@ file_path = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data', 'r
 absolute_file_path = os.path.abspath(file_path)
 print(f"PATH : {absolute_file_path}")
 
-# Tokenized with regex for french contraction like "d'Alençon"
-# tokenizer = RegexpTokenizer(r"\b(?:d'|l'|j'|qu'|n'|s'|t'|m'|c')?\w+\b")
-
-# Updated tokenizer to split contractions
+# Tokenized with regex for french : 
+# Tirst REGEX tested RegexpTokenizer(r"\b(?:d'|l'|j'|qu'|n'|s'|t'|m'|c')?\w+\b")
+# Second REGEX tested for better results
 tokenizer = RegexpTokenizer(r"\b(?:d'|l'|j'|qu'|n'|s'|t'|m'|c')\b|\b\w+\b")
 
 
@@ -67,9 +66,9 @@ def process_csv(filepath):
 
 annotated_dataset = process_csv(absolute_file_path)
 
-# Export JSON file
-# json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_second_POC.json')
-json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_second_POC.json')
+# Export JSON
+# json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_2_POC.json') # First REGEX
+json_file_path = os.path.join(os.path.dirname(__file__), 'tokenized_3_POC.json')
 
 json_data = []
 for data in annotated_dataset:
