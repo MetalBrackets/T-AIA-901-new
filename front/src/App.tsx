@@ -5,13 +5,18 @@ import styles from './App.module.css';
 import MapComponent from './components/MapComponent';
 import RecordComponent from './components/RecordComponent';
 import AudioComponent from "./components/AudioComponent";
+import DisplayMap from "./components/DisplayMap";
 
 const App: Component = () => {
   return (
     <div>
       {/*<RecordComponent />*/}
+        <div class="flex justify-center my-5">
+            <h1 class="text-4xl font-bold text-red-950">Train travel</h1>
+        </div>
         <AudioComponent/>
-      <MapComponent/>
+        <DisplayMap/>
+        {/*<MapComponent/>*/}
     </div>
      
   );
