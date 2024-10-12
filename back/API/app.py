@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 import folium
 import speech_recognition as sr
 from flask_cors import CORS
@@ -27,7 +27,7 @@ def get_travel():
     # Créer une carte avec Folium
     m = folium.Map(location=[(travel["routes"][0]["lat_departure"] + travel["routes"][0]["lat_arrival"]) / 2,
                              (travel["routes"][0]["lon_departure"] + travel["routes"][0]["lon_arrival"]) / 2],
-                   zoom_start=8)
+                   zoom_start=6)
     # Ajouter un marqueur pour le départ
     folium.Marker(
         location=[travel["routes"][0]["lat_departure"], travel["routes"][0]["lon_departure"]],
@@ -48,9 +48,10 @@ def get_travel():
         color='red',
     ).add_to(m)
     # Enregistrer la carte dans un fichier HTML
-    m.save('map.html')
+    map_path = 'map.html'
+    m.save(map_path)
     print(travel)
-    return jsonify(travel)
+    return send_file(map_path)
 
 
 @app.route('/api/v1/audio', methods=['POST'])
