@@ -6,6 +6,7 @@ file_path = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data', 'l
 absolute_file_path = os.path.abspath(file_path)
 print(f"/// PATH : {absolute_file_path}")
 
+
 # Load station data
 def load_station_data():
     df = pd.read_csv(absolute_file_path, delimiter=';')
@@ -13,6 +14,7 @@ def load_station_data():
     df = df.rename(columns={'X_WGS84': 'longitude', 'Y_WGS84': 'latitude'})
     # Drop rows with missing values in latitude and longitude
     return df.dropna(subset=['latitude', 'longitude'])
+
 
 # Fetch les coordonnées d'une ville
 def get_coordinates(city_name, df):
@@ -27,6 +29,7 @@ def get_coordinates(city_name, df):
     else:
         print(f"No coordinates found for {city_name}")
         return None, None
+
 
 # Example usage to test the script
 df = load_station_data()
