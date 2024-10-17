@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 import folium
 import speech_recognition as sr
 from flask_cors import CORS
@@ -48,9 +48,10 @@ def get_travel():
         color='red',
     ).add_to(m)
     # Enregistrer la carte dans un fichier HTML
-    m.save('map.html')
+    map_path = 'map.html'
+    m.save(map_path)
     print(travel)
-    return jsonify(travel)
+    return send_file(map_path)
 
 
 @app.route('/api/v1/audio', methods=['POST'])
