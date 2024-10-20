@@ -1,7 +1,6 @@
-# the heavy data
-aia-data/gares-de-voyageurs.csv
-aia-data/liste-des-gares.csv
-aia-data/formes-des-lignes-du-rfn.geojson
+*.ipynb_checkpoints
+*.jupyter
+*.local
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
