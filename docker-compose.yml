@@ -8,4 +8,4 @@ services:
     ports:
       - 8888:8888
     command: >
-      bash -c "pip install tensorflow && jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''"
+      bash -c "pip install transformers tensorflow tensorflow-text tensorflow-hub scikit-learn pandas numpy && jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''"

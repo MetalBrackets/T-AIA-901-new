@@ -1,6 +1,10 @@
 # Recherche pour tokenizer
 
--> install
+## But de la recherche
+
+La prediction d'un départ et d'une arrivé dans une phrase.
+
+## install
 
 ```
 pip install tensorflow pandas numpy transformers
@@ -123,13 +127,60 @@ BERT français et BERT multilingue :
 
 #### Entrainement d'un modèle
 
-🚧 chantier est en court  
-Pour qu'il puisse predir le départ et l'arrivé avec le sens de la phrase.
+Le but ici est de faire porter la tokenization et la prediction par un model finetuné pour notre besoin. On va utiliser BERT et son tokenizer Fast et tester différents paramétrages d'entrainement sur des données de train. Puis ensuite, évaluer le nouveau modèle sur des données de test.
+
+**Configuration**
+
+```markdown
+- model de départ -> `bert-base-multilingual-cased`
+- optimizer avec Adam
+- Learning rate 5e-5 => (0.00005) = petite vitesse d'ajustement des poids
+- `SparseCategoricalCrossentropy` -> fonction de perte pour le multiclasse
+- `from_logits=True` -> "logits" = les sorties du modèle non normalisés -> avant de calculer la perte, la fonction appliquera une couche softmax interne pour convertir les logits en probabilité
+- metrics=['accuracy'] pour surveiller la précision du modèle pendant l'entraînement et l'évaluation
+
+- 3 epochs
+- batch_size=16
+```
+
+**Resultat**
+
+```sh
+
+Matrice de confusion:
+[[ 18   1   1   0   0]
+ [  3  18   0   1   0]
+ [  0   0  54   2   1]
+ [  0   0  11  70   0]
+ [  1   1   6   2 530]]
+
+Rapport de classification:
+              precision    recall  f1-score   support
+
+           O       0.82      0.90      0.86        20
+       B-DEP       0.90      0.82      0.86        22
+       I-DEP       0.75      0.95      0.84        57
+       B-ARR       0.93      0.86      0.90        81
+       I-ARR       1.00      0.98      0.99       540
+
+    accuracy                           0.96       720
+   macro avg       0.88      0.90      0.89       720
+weighted avg       0.96      0.96      0.96       720
+
+```
+
+**Test de variation des paramètres d'entrainement**
+| batch size + | epoch + | batch size - |
+|---|---|---|
+| batch_size=36, <br>epoch=3 | batch_size=16, <br>epochs=10 | batch_size=9, <br>epochs=10 |
+| ![batch-36.png](img/batch-36.png) | ![10epoch.png](img/10epoch.png) | ![batch-9.png](img/batch-9.png) |
 
 ## Conclusion
 
-🚧 en cours ..  
 Le script 3 qui est performant avec une approche simple sans entrainement de modèle.
 La tokenization avec la lib python NLTK est basé sur une REGEX qui prend en compte les contractions du français (d'|l'|j'|qu'|n'|s'|t'|m'|c'). Cette méthode détecte correctement les entity (Départ, Arrivée) dans une forme naturelle des mots sans les sur-fragmenter en sous-tokens, comme le font les tokenizers de modèles pré-entraînés. De plus le format BIO (Begin, Inside, Outside) est plus lisible pour l'évaluation humaine.
 
-L'utilisation d'un modèle finetuné 🚧 en cours ..
+Le modèle finetuné lui va permettre de faire les prediction sur les données inconnues.
+IL est plus performant avec un plus petit batch.
+
+Enfin, la solution envisagé pour que le modèle soit plus performant serait d'avoir beaucoup plus de données d'entrainement avec des cas atypiques.
