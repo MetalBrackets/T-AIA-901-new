@@ -182,3 +182,5 @@ La tokenization avec la lib python NLTK est basé sur une REGEX qui prend en com
 
 Le modèle finetuné lui va permettre de faire les prediction sur les données inconnues.
 IL est plus performant avec un plus petit batch.
+
+Enfin, la solution envisagé pour que le modèle soit plus performant serait d'avoir beaucoup plus de données d'entrainement avec des cas atypiques.
