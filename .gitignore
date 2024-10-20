@@ -1,5 +1,3 @@
-/model/model/save
-
 *.ipynb_checkpoints
 *.jupyter
 *.local
