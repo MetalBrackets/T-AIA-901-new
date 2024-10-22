@@ -1,16 +1,22 @@
 import os
 import tensorflow as tf
 from transformers import TFBertForTokenClassification, BertTokenizerFast
+from transformers import MobileBertTokenizerFast, TFMobileBertForTokenClassification
 from sklearn.preprocessing import LabelEncoder
 from langdetect import detect
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0' 
 
-model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'model', 'model', 'save')
+model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'model', 'models', 'bert-base-fr-cased')
 absolute_model_path = os.path.abspath(model_path)
 print(f"Absolute path: {absolute_model_path}")
-
 tokenizer = BertTokenizerFast.from_pretrained(absolute_model_path)
 model = TFBertForTokenClassification.from_pretrained(absolute_model_path)
+
+# model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'model', 'models', 'NER_MobileBERT')
+# absolute_model_path = os.path.abspath(model_path)
+# print(f"Absolute path: {absolute_model_path}")
+# tokenizer = MobileBertTokenizerFast.from_pretrained(absolute_model_path)
+# model = TFMobileBertForTokenClassification.from_pretrained(absolute_model_path)
 
 unique_labels = ['O', 'B-DEP', 'I-DEP', 'B-ARR', 'I-ARR']
 label_encoder = LabelEncoder()
@@ -79,9 +85,9 @@ def process_sentence(sentence_id, new_phrase):
     return {'sentenceID': sentence_id, 'Departure': departure, 'Destination': arrival}
 
 # Example usage
-# new_phrase = "demain, je planifie un voyage de Saint-Germain-en-Laye à L'Haÿ-les-Roses, en passant prendre des amis à Asnières-sur-Seine et peut-être faire une halte à Vitry-sur-Seine pour le déjeuner"
+new_phrase = "demain, je planifie un voyage de Saint-Germain-en-Laye à L'Haÿ-les-Roses, en passant prendre des amis à Asnières-sur-Seine et peut-être faire une halte à Vitry-sur-Seine pour le déjeuner"
 # new_phrase = "Tomorrow I'm planning a trip from Saint-Germain-en-Laye to L'Haÿ-les-Roses, picking up friends in Asnières-sur-Seine and maybe stopping in Vitry-sur-Seine for lunch"
-new_phrase = "J'aimerais aller à Londres"
+# new_phrase = "J'aimerais aller à Londres"
 result = process_sentence(1, new_phrase)
 print(result)
 
