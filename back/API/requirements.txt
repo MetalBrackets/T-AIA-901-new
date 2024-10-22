@@ -16,3 +16,5 @@ urllib3==2.2.3
 Werkzeug==3.0.4
 xyzservices==2024.9.0
 langdetect==1.16.0
+python-dotenv==1.0.1
+seaborn==0.13.2
