@@ -5,6 +5,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 Flask==3.0.3
 Flask-Cors==5.0.0
+SpeechRecognition==3.10.4
 folium==0.17.0
 idna==3.10
 itsdangerous==2.2.0
@@ -15,6 +16,8 @@ requests==2.32.3
 urllib3==2.2.3
 Werkzeug==3.0.4
 xyzservices==2024.9.0
-langdetect==1.16.0
+langdetect==1.0.9
 python-dotenv==1.0.1
 seaborn==0.13.2
+pydub==0.25.1
+typing_extensions==4.12.2

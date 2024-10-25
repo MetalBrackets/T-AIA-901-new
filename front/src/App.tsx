@@ -7,6 +7,7 @@ import RecordComponent from './components/RecordComponent';
 import AudioComponent from "./components/AudioComponent";
 import DisplayMap from "./components/DisplayMap";
 import ItineraryInputComponent from "./components/ItineraryInputComponent";
+import TimelineComponent from "./components/TimelineComponent";
 
 const App: Component = () => {
   return (
@@ -16,7 +17,8 @@ const App: Component = () => {
             <h1 class="text-4xl font-bold text-red-950">Train travel</h1>
         </div>
         <AudioComponent/>
-        <ItineraryInputComponent/>
+        {/*<ItineraryInputComponent/>*/}
+        <TimelineComponent/>
         <DisplayMap/>
         {/*<MapComponent/>*/}
     </div>

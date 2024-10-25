@@ -3,9 +3,24 @@ import folium
 import speech_recognition as sr
 from flask_cors import CORS
 from pydub import AudioSegment
+from dijkstra import dijkstra
+import pathfinder
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:5000/api/v1/"}})
+
+
+@app.route("/api/v1/shortest-path", methods=["GET"])
+def shortest_path():
+    start_node = 'Gare de Brest'
+    end_node = 'Gare de Lyon-Perrache'
+    graph = pathfinder.load_graph()
+    path, distance = dijkstra(graph, start_node, end_node)
+
+    return jsonify({
+        "path": path,
+        "distance": distance
+    })
 
 
 @app.route('/api/v1/travel', methods=['GET'])
