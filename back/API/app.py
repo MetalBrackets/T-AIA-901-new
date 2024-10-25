@@ -1,11 +1,26 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 import folium
 import speech_recognition as sr
 from flask_cors import CORS
 from pydub import AudioSegment
+from dijkstra import dijkstra
+import pathfinder
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:5000/api/v1/"}})
+
+
+@app.route("/api/v1/shortest-path", methods=["GET"])
+def shortest_path():
+    start_node = 'Gare de Brest'
+    end_node = 'Gare de Lyon-Perrache'
+    graph = pathfinder.load_graph()
+    path, distance = dijkstra(graph, start_node, end_node)
+
+    return jsonify({
+        "path": path,
+        "distance": distance
+    })
 
 
 @app.route('/api/v1/travel', methods=['GET'])
@@ -48,9 +63,10 @@ def get_travel():
         color='red',
     ).add_to(m)
     # Enregistrer la carte dans un fichier HTML
-    m.save('map.html')
+    map_path = 'map.html'
+    m.save(map_path)
     print(travel)
-    return jsonify(travel)
+    return send_file(map_path)
 
 
 @app.route('/api/v1/audio', methods=['POST'])

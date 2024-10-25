@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb1d4f221417f9b5c3c8a33f82fb3d7a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb1d4f221417f9b5c3c8a33f82fb3d7a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb1d4f221417f9b5c3c8a33f82fb3d7a = L.map(
+                "map_eb1d4f221417f9b5c3c8a33f82fb3d7a",
+                {
+                    center: [48.02995, 0.3839499999999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_75524302d846c3e944191c54d0e20941 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_75524302d846c3e944191c54d0e20941.addTo(map_eb1d4f221417f9b5c3c8a33f82fb3d7a);
+        
+    
+            var marker_cddc1c1c6492792074ef91a6474fbe3b = L.marker(
+                [48.8415, 2.3215],
+                {}
+            ).addTo(map_eb1d4f221417f9b5c3c8a33f82fb3d7a);
+        
+    
+            var icon_95046e66f06ff89b0a4000a4ae1f43d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cddc1c1c6492792074ef91a6474fbe3b.setIcon(icon_95046e66f06ff89b0a4000a4ae1f43d4);
+        
+    
+        var popup_2eff305e39e6b9aa9061f0e96835fad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a7f593ac70d8c4a76c110cc0cb3546 = $(`<div id="html_40a7f593ac70d8c4a76c110cc0cb3546" style="width: 100.0%; height: 100.0%;">Départ: Paris Montparnasse</div>`)[0];
+                popup_2eff305e39e6b9aa9061f0e96835fad3.setContent(html_40a7f593ac70d8c4a76c110cc0cb3546);
+            
+        
+
+        marker_cddc1c1c6492792074ef91a6474fbe3b.bindPopup(popup_2eff305e39e6b9aa9061f0e96835fad3)
+        ;
+
+        
+    
+    
+            var marker_76be46d6b270268cf78eb0be5367bed7 = L.marker(
+                [47.2184, -1.5536],
+                {}
+            ).addTo(map_eb1d4f221417f9b5c3c8a33f82fb3d7a);
+        
+    
+            var icon_fc75532f18a1d51828f0e7a52c51ef4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76be46d6b270268cf78eb0be5367bed7.setIcon(icon_fc75532f18a1d51828f0e7a52c51ef4b);
+        
+    
+        var popup_f3b4cb95115a33984b688780943341af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d17a4eb05714b6c445bacb4418462373 = $(`<div id="html_d17a4eb05714b6c445bacb4418462373" style="width: 100.0%; height: 100.0%;">Arrivée: Nantes</div>`)[0];
+                popup_f3b4cb95115a33984b688780943341af.setContent(html_d17a4eb05714b6c445bacb4418462373);
+            
+        
+
+        marker_76be46d6b270268cf78eb0be5367bed7.bindPopup(popup_f3b4cb95115a33984b688780943341af)
+        ;
+
+        
+    
+    
+            var poly_line_943a6f74084bc733e20fc6ca6214abc1 = L.polyline(
+                [[48.8415, 2.3215], [47.2184, -1.5536]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb1d4f221417f9b5c3c8a33f82fb3d7a);
+        
+</script>
+</html>
