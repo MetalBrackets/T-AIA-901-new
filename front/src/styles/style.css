@@ -1,0 +1,48 @@
+.timeline-container {
+  display: flex;
+  overflow-x: auto; /* Pour permettre le défilement horizontal */
+  white-space: nowrap; /* Pour éviter que les éléments se chevauchent */
+  border-left: 2px solid #ccc; /* Ligne verticale */
+  padding-left: 20px; /* Espacement à gauche pour la ligne */
+}
+
+.timeline-item {
+  display: inline-block; /* Pour les aligner horizontalement */
+  margin-right: 20px; /* Espacement entre les arrêts */
+  text-align: center;
+  position: relative; /* Nécessaire pour les éléments positionnés absolus */
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: 50px; /* Décalage de la ligne */
+  top: 20px; /* Alignement avec le contenu */
+  width: 20px; /* Largeur du point */
+  height: 20px; /* Hauteur du point */
+  border-radius: 50%; /* Cercle */
+  background: #3498db; /* Couleur du point */
+  border: 2px solid #fff; /* Bord blanc autour du point */
+}
+
+.timeline-content {
+  background: #ffffff; /* Fond blanc */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s; /* Transition douce */
+}
+
+.timeline-content:hover {
+  transform: scale(1.05); /* Agrandir légèrement au survol */
+}
+
+.timeline-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.timeline-item p {
+  margin: 5px 0 0;
+  color: #666;
+}
