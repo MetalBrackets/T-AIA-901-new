@@ -1,6 +1,7 @@
 *.ipynb_checkpoints
 *.jupyter
 *.local
+.keras
 
 students_project/
 
