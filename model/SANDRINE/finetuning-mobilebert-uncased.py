@@ -32,7 +32,7 @@ label_encoder = LabelEncoder()
 label_encoder.fit(unique_labels)
 print("-> mapping labels and ids: ", {label: idx for idx, label in enumerate(label_encoder.classes_)})
 
-tokenizer = BertTokenizerFast.from_pretrained('SKNahin/NER_MobileBert', token=huggingface_token)
+tokenizer = BertTokenizerFast.from_pretrained('google/mobilebert-uncased', token=huggingface_token)
 
 print("\n// Starting train data encoding...")
 train_tokens, train_labels = encode_data(data_train, tokenizer, label_encoder, max_length=36)
@@ -44,7 +44,7 @@ test_tokens, test_labels = encode_data(data_test, tokenizer, label_encoder, max_
 ##################
 
 model = TFMobileBertForTokenClassification.from_pretrained(
-    'SKNahin/NER_MobileBert',
+    'google/mobilebert-uncased',
     num_labels=len(unique_labels),
     ignore_mismatched_sizes=True,
     token=huggingface_token
@@ -63,7 +63,7 @@ model.fit(train_tokens, train_labels, epochs=10, batch_size=9, validation_split=
 # Model Save #
 ##############
 
-model_path = os.path.join(os.getcwd(), 'model', 'models', 'NER_MobileBert')
+model_path = os.path.join(os.getcwd(), 'model', 'models', 'mobilebert-uncased')
 absolute_model_path = os.path.abspath(model_path)
 print(f"Path : {absolute_model_path}")
 
