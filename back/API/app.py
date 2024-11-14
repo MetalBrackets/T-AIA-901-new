@@ -6,6 +6,7 @@ from pydub import AudioSegment
 import speech_recognition as sr
 
 from predict_departure_and_destination import process_sentence
+from gareFinder import gareFinders  
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:5000/api/v1/"}})
@@ -20,10 +21,13 @@ def travel():
         return jsonify({'error': 'No audio file'}), 400
     
     audio_file = request.files['audio']
-
+    print(audio_file)
     # Convertion en format WAV si l'audio
-    audio = AudioSegment.from_file(audio_file, format="webm")
-    audio.export('output.wav', format="wav")
+    try :
+        audio = AudioSegment.from_file(audio_file, format="webm")
+        audio.export('output.wav', format="wav")
+    except:
+        return jsonify({'error': 'Could not convert audio'}), 400
     
     recognizer = sr.Recognizer()
     with sr.AudioFile("output.wav") as source:
@@ -34,6 +38,9 @@ def travel():
         print(result)
         print(result["Departure"])
         print(result["Destination"])
+
+        gareFinders(result["Departure"],result["Destination"])
+        
 
         travelInfo.append(result)
         return jsonify({'result': result}), 200
