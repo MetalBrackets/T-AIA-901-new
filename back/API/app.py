@@ -31,7 +31,6 @@ def travel():
     try:
         text = recognizer.recognize_google(audio, language='fr-FR')
         result = process_sentence(1, text)
-        print("ttttt")
         print(result)
         print(result["Departure"])
         print(result["Destination"])
@@ -50,6 +49,7 @@ def shortest_path():
     start_node = 'Gare de Brest'
     end_node = 'Gare de Lyon-Perrache'
     graph = pathfinder.load_graph()
+    print("graph", graph)
     path, distance = dijkstra(graph, start_node, end_node)
 
     return jsonify({
