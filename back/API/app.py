@@ -21,7 +21,6 @@ def travel():
         return jsonify({'error': 'No audio file'}), 400
     
     audio_file = request.files['audio']
-    print(audio_file)
     # Convertion en format WAV si l'audio
     try :
         audio = AudioSegment.from_file(audio_file, format="webm")
@@ -35,15 +34,37 @@ def travel():
     try:
         text = recognizer.recognize_google(audio, language='fr-FR')
         result = process_sentence(1, text)
-        print(result)
-        print(result["Departure"])
-        print(result["Destination"])
 
-        gareFinders(result["Departure"],result["Destination"])
+        traject = []
+        traject = gareFinders(result["Departure"],result["Destination"])
         
+        graph = pathfinder.load_graph()
+        full_path = []
+        total_distance = 0
+        travelInfo = []
+        shortest_distance = 100000
 
-        travelInfo.append(result)
-        return jsonify({'result': result}), 200
+        for i in range(len(traject) - 1):
+            start_node = traject[i].split(" - ")[0]
+            end_node = traject[i].split(" - ")[1]
+            path, distance = dijkstra(graph, start_node, end_node)
+            full_path.extend(path[:-1])  # Exclude the last node to avoid duplication
+            full_path.append(traject[i].split(" - ")[1])
+            
+            print(distance)
+            if shortest_distance > distance:
+                shortest_distance = distance
+                travelInfo = ({
+                    "start": traject[i].split(" - ")[0],
+                    "end": traject[i ].split(" - ")[1],
+                    "path": full_path,
+                    "distance": shortest_distance
+                })
+                full_path = []
+            full_path = []
+
+        return jsonify(travelInfo), 200
+       
     except sr.UnknownValueError:
         return jsonify({'error': 'Could not understand audio'}), 400
     except sr.RequestError as e:
