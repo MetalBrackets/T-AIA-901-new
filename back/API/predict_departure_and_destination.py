@@ -87,10 +87,10 @@ def process_sentence(sentence_id, new_phrase):
     return {'sentenceID': sentence_id, 'Departure': departure, 'Destination': arrival}
 
 # Example usage
-new_phrase = "Demain, je planifie un voyage de Saint-Germain-en-Laye à L'Haÿ-les-Roses, en passant prendre des amis à Asnières-sur-Seine et peut-être faire une halte à Vitry-sur-Seine pour le déjeuner"
+# new_phrase = "Demain, je planifie un voyage de Saint-Germain-en-Laye à L'Haÿ-les-Roses, en passant prendre des amis à Asnières-sur-Seine et peut-être faire une halte à Vitry-sur-Seine pour le déjeuner"
 # new_phrase = "Tomorrow I'm planning a trip from Saint-Germain-en-Laye to L'Haÿ-les-Roses, picking up friends in Asnières-sur-Seine and maybe stopping in Vitry-sur-Seine for lunch"
 # new_phrase = "J'aimerais aller à Londres"
 
-result = process_sentence(1, new_phrase)
-print(result)
+# result = process_sentence(1, new_phrase)
+# print(result)
 
