@@ -1,10 +1,10 @@
 import { createSignal } from "solid-js";
-
+import styles from "../App.module.css";
+import TimelineComponent from "./TimelineComponent";
 function SpeechToText() {
-  const [transcriptionStart, setTranscriptionStart] = createSignal("");
-  const [transcriptionEnd, setTranscriptionEnd] = createSignal("");
   const [isRecording, setIsRecording] = createSignal(false);
   const [errorMessage, setErrorMessage] = createSignal("");
+
 
   let mediaRecorder: MediaRecorder;
   let audioChunks: BlobPart[] | undefined = [];
@@ -39,8 +39,11 @@ function SpeechToText() {
           })
           .then((data) => {
             console.log("La réponse du serveur:", data);
-            setTranscriptionStart(data.result.Departure);
-            setTranscriptionEnd(data.result.Destination);
+            localStorage.setItem("end", data.end);
+            localStorage.setItem("start", data.start);
+            localStorage.setItem("duration", data.distance);
+            localStorage.setItem("path", JSON.stringify(data.path));
+            window.location.reload();
           })
           .catch((error) => {
             setErrorMessage("Error: " + error.message);
@@ -56,6 +59,7 @@ function SpeechToText() {
   };
 
   return (
+    <>
     <div class="flex flex-col items-center">
       <div class="mt-3">
         {isRecording() ? (
@@ -81,10 +85,13 @@ function SpeechToText() {
           </button>
         )}
       </div>
-      <p class="text-lg mt-5">Départ : {transcriptionStart() || "Non spécifié"}</p>
-      <p class="text-lg">Arrivée : {transcriptionEnd() || "Non spécifié"}</p>
+      <p class="text-lg mt-5">Départ : {localStorage.getItem("start") || "Non spécifié"}</p>
+      <p class="text-lg">Arrivée : {localStorage.getItem("end") || "Non spécifié"}</p>
       {errorMessage() && <div class="error-message mt-5">{errorMessage()}</div>}
-    </div>
+     
+    </div>  
+      
+    </>
   );
 }
 

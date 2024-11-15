@@ -14,9 +14,12 @@ const App: Component = () => {
           <AudioComponent />
         </div>
       </div>
-      <div class={styles.containerCenter}>
-        <TimelineComponent />
-      </div>
+      {localStorage.getItem('path') && (
+        <div class={styles.containerCenter}>
+          <TimelineComponent />
+        </div>
+      )}
+      
     </div>
   );
 };
