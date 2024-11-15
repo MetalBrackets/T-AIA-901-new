@@ -10,18 +10,20 @@ const timelineComponent = () => {
     const mins = minutes % 60;
     return `${hours}h ${mins}min`;
   };
-
+  
+  
   onMount(async () => {
-    const response = await fetch("/api/v1/shortest-path");
-    const data = await response.json();
-    const formattedStops = data.path.map((station, index) => {
+
+    const data = JSON.parse(localStorage.getItem("path"));
+   
+    const formattedStops = data.map((station, index) => {
       // Condition pour définir les détails
       if (index === 0) {
         return {
           station,
           details: `Départ`,
         };
-      } else if (index === data.path.length - 1) {
+      } else if (index === data.length - 1) {
         return {
           station,
           details: `Arrivée`,
@@ -36,7 +38,7 @@ const timelineComponent = () => {
       }
     });
 
-    setDuration(data.distance);
+    setDuration(localStorage.getItem("duration"));
     setStops(formattedStops);
   });
   return (
