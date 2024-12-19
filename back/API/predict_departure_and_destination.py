@@ -33,7 +33,16 @@ def is_french(text):
 def extract_entities(phrase, max_length=36):
     """Extract departure and arrival entities from the phrase"""
     print("\nProcessing sentence: ", phrase)
-    tokenized_input = tokenizer(phrase, return_offsets_mapping=True, add_special_tokens=True, return_tensors="tf", truncation=True, max_length=max_length)
+
+    tokenized_input = tokenizer(
+        phrase, 
+        return_offsets_mapping=True, # to get the offset of each token
+        add_special_tokens=True, 
+        return_tensors="tf", 
+        truncation=True, 
+        max_length=max_length
+    )
+    
     tokens = tokenizer.convert_ids_to_tokens(tokenized_input.input_ids[0])
     # print("\n- Encoded tokens: ", tokens)
 
