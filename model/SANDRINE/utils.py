@@ -1,6 +1,8 @@
 
 import numpy as np
 from sklearn.metrics import confusion_matrix, classification_report
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def encode_data(data, tokenizer, label_encoder, max_length=36):
     tokens = []
@@ -90,8 +92,65 @@ def encode_data(data, tokenizer, label_encoder, max_length=36):
     return np.array(tokens), np.array(labels)
 
 
+def get_metrics(true_labels, predicted_labels, unique_labels, history=None):
+    cm = confusion_matrix(true_labels, predicted_labels)
+    cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis] # normalisation
 
-def get_metrics(true_labels, predicted_labels, unique_labels):
+    # Heatmap
+    plt.figure(figsize=(10, 7))
+    custom_palette = ["#DCDED6", "#CED0C3", "#B4BAB1", "#859393", "#5D726F", "#485665"]
+    ax = sns.heatmap(cm_normalized, annot=True, fmt=".2f", cmap=custom_palette, xticklabels=unique_labels, yticklabels=unique_labels, square=True, linewidths=2, linecolor='white')
+    plt.title('Confusion Matrix', fontsize=16, fontweight='bold')
+    plt.ylabel('True Label', fontsize=12, fontweight='bold')
+    plt.xlabel('Predicted Label', fontsize=12, fontweight='bold')
+    plt.xticks(fontsize=10, fontweight='normal')
+    plt.yticks(fontsize=10, fontweight='normal')
+
+    # color based on value
+    for text in ax.texts:
+        t = float(text.get_text())
+        if 0.1 <= t < 0.7:
+            text.set_color('#CA3C66')
+        elif t >= 0.7:
+            text.set_color('#FFFFFF')
+        else:
+            text.set_color('#485665')
+
+    plt.show()
+
+    # Confusion Matrix stdout
+    print("\nConfusion Matrix:")
+    print(cm)
+    # Classification Report stdout
+    print("\nClassification Report:")
+    print(classification_report(true_labels, predicted_labels, target_names=unique_labels))
+    
+    # History
+    print("\nEvolution of accuracy and loss over the epoch:")
+    if history is not None:
+        # accuracy
+        plt.figure(figsize=(12, 5))
+        plt.subplot(1, 2, 1)
+        plt.plot(history.history['accuracy'], label='Training accuracy', marker='o')
+        plt.plot(history.history['val_accuracy'], label='Validation accuracy', marker='o')
+        plt.title('Model accuracy over epochs')
+        plt.xlabel('Epoch')
+        plt.ylabel('Accuracy')
+        plt.legend()
+        # loss
+        plt.subplot(1, 2, 2)
+        plt.plot(history.history['loss'], label='Training loss', marker='o')
+        plt.plot(history.history['val_loss'], label='Validation loss', marker='o')
+        plt.title('Model loss over epochs')
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.legend()
+
+        plt.tight_layout()
+        plt.show()
+
+
+def get_metrics_simple(true_labels, predicted_labels, unique_labels):
     # Confusion Matrix stdout
     confusion = confusion_matrix(true_labels, predicted_labels)
     print("\nConfusion Matrix")
