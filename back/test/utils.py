@@ -76,12 +76,19 @@ def encode_data(data, tokenizer, label_encoder):
     return np.array(tokens), np.array(labels)
 
 
+# def visualize_attention_heatmap(attention, tokens, model_name):
+#     plt.figure(figsize=(6, 5))
+#     sns.heatmap(attention, xticklabels=tokens, yticklabels=tokens, cmap='viridis')
+#     plt.title(f'Attention weights for {model_name}')
+#     plt.xlabel('Input Tokens')
+#     plt.ylabel('Output Tokens')
 
-def visualize_attention_heatmap(attention, tokens, model_name):
-    plt.figure(figsize=(6, 5))
-    sns.heatmap(attention, xticklabels=tokens, yticklabels=tokens, cmap='viridis')
-    plt.title(f'Attention weights for {model_name}')
-    plt.xlabel('Input Tokens')
-    plt.ylabel('Output Tokens')
+#     plt.show()
 
-    plt.show()
+
+def print_predict_duration(total_start_time, total_end_time):
+    total_predict_duration = total_end_time - total_start_time
+    seconds = int(total_predict_duration)
+    milliseconds = (total_predict_duration - seconds) * 1000
+    print(f"\n⏱️ Total prediction time: {seconds} seconds and {milliseconds:.2f} milliseconds")
+    return total_predict_duration
