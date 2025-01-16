@@ -6,6 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from langdetect import detect
 
 from transformers import logging as hf_logging
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.get_logger().setLevel('ERROR')
 hf_logging.set_verbosity_error()
@@ -20,9 +21,16 @@ model = TFBertForTokenClassification.from_pretrained(absolute_model_path)
 # tokenizer = MobileBertTokenizerFast.from_pretrained(absolute_model_path)
 # model = TFMobileBertForTokenClassification.from_pretrained(absolute_model_path)
 
+
+# model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'model', 'models', 'camembert-base-finetuned')
+# absolute_model_path = os.path.abspath(model_path)
+# tokenizer = BertTokenizerFast.from_pretrained(absolute_model_path)
+# model = TFBertForTokenClassification.from_pretrained(absolute_model_path)
+
 unique_labels = ['O', 'B-DEP', 'I-DEP', 'B-ARR', 'I-ARR']
 label_encoder = LabelEncoder()
 label_encoder.fit(unique_labels)
+
 
 def is_french(text):
     try:
@@ -30,12 +38,14 @@ def is_french(text):
     except:
         return False
 
+
 def extract_entities(phrase, max_length=36):
     """Extract departure and arrival entities from the phrase"""
     print("\nProcessing sentence: ", phrase)
-    tokenized_input = tokenizer(phrase, return_offsets_mapping=True, add_special_tokens=True, return_tensors="tf", truncation=True, max_length=max_length)
+    tokenized_input = tokenizer(phrase, return_offsets_mapping=True, add_special_tokens=True, return_tensors="tf",
+                                truncation=True, max_length=max_length)
     tokens = tokenizer.convert_ids_to_tokens(tokenized_input.input_ids[0])
-    # print("\n- Encoded tokens: ", tokens)
+    print("\n- Encoded tokens: ", tokens)
 
     offsets = tokenized_input['offset_mapping'].numpy()[0]
     predictions = model(tokenized_input.input_ids).logits
@@ -43,7 +53,7 @@ def extract_entities(phrase, max_length=36):
 
     predicted_labels = label_encoder.inverse_transform(label_indices)
     # print("\n- Labels after encoding the entities: ", predicted_labels)
-    
+
     departure, arrival = [], []
     current_entity = []
     current_label = None
@@ -68,10 +78,11 @@ def extract_entities(phrase, max_length=36):
             current_entity = []
             current_label = None
 
-    # print(f"\n- Detected Departure: {departure}")
-    # print(f"- Detected Arrival: {arrival}")
+    print(f"\n- Detected Departure: {departure}")
+    print(f"- Detected Arrival: {arrival}")
 
     return departure, arrival
+
 
 def process_sentence(sentence_id, new_phrase):
     """Process the sentence to extract travel related information"""
@@ -93,4 +104,3 @@ def process_sentence(sentence_id, new_phrase):
 
 # result = process_sentence(1, new_phrase)
 # print(result)
-

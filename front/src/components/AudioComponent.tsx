@@ -25,6 +25,7 @@ function SpeechToText() {
       mediaRecorder.onstop = () => {
         const audioBlob = new Blob(audioChunks, { type: "audio/webm" });
         const formData = new FormData();
+        console.log("Audio: ", audioBlob)
         formData.append("audio", audioBlob, "audio.webm");
 
         fetch("/api/v1/travel", {
@@ -32,6 +33,7 @@ function SpeechToText() {
           body: formData,
         })
           .then((response) => {
+            console.log('Rep: ', response)
             if (!response.ok) {
               throw new Error("Je n'ai pas compris, pouvez-vous répéter votre demande ?");
             }

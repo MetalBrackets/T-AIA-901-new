@@ -3,20 +3,15 @@ from unidecode import unidecode
 import json
 
 
-def gareFinders(cityStart,cityEnd):
+def gareFinders(cityStart, cityEnd):
     file_path = "../../students_project/liste-des-gares.csv"
     data = pd.read_csv(file_path, delimiter=';')
-
-    
-
 
     cityStartUpper = unidecode(cityStart[0].upper())
     cityEndUpper = unidecode(cityEnd[0].upper())
 
     gareStart = ""
     gareEnd = ""
-
-
 
     gareStartList = []
     gareEndList = []
@@ -26,11 +21,6 @@ def gareFinders(cityStart,cityEnd):
             gareStartList.append("Gare de " + row['LIBELLE'])
         if row['COMMUNE'] == cityEndUpper:
             gareEndList.append("Gare de " + row['LIBELLE'])
-
-
-    
-
-
 
     file_path = "../../students_project/timetables.csv"
     dataTravel = pd.read_csv(file_path, delimiter='\t')
@@ -54,6 +44,5 @@ def gareFinders(cityStart,cityEnd):
     for gareStart in gareStartList:
         for gareEnd in gareEndList:
             trajects.append(f"{gareStart} - {gareEnd}")
-            
+
     return trajects
-    
