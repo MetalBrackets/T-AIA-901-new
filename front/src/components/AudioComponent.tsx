@@ -31,23 +31,21 @@ function SpeechToText() {
           method: "POST",
           body: formData,
         })
-          .then((response) => {
-            if (!response.ok) {
-              throw new Error("Je n'ai pas compris, pouvez-vous répéter votre demande ?");
-            }
-            return response.json();
-          })
+          .then((response) => response.json())
           .then((data) => {
-            console.log("La réponse du serveur:", data);
-            localStorage.setItem("end", data.end);
-            localStorage.setItem("start", data.start);
-            localStorage.setItem("duration", data.distance);
-            localStorage.setItem("path", JSON.stringify(data.path));
-            window.location.reload();
-          })
-          .catch((error) => {
-            setErrorMessage("Error: " + error.message);
-            console.error("Error:", error);
+            if (data.error) {
+              localStorage.clear();
+              window.location.reload();
+              localStorage.setItem("error", data.error);
+            } else {
+              console.log(data);
+              localStorage.setItem("start", data.start);
+              localStorage.setItem("end", data.end);
+              localStorage.setItem("path", JSON.stringify(data.path));
+              localStorage.setItem("duration", data.distance);
+              localStorage.removeItem("error");
+              window.location.reload();
+            }
           });
       };
     });
