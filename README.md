@@ -35,7 +35,7 @@ For notebook: Kernel -> choose Python 3.11
 ### Install Dependencies
 
 ```
- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 /!\ windows, install executable ffmpeg-master-latest-win64-gpl.zip
