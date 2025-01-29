@@ -15,7 +15,6 @@ const timelineComponent = () => {
   onMount(async () => {
 
     const data = JSON.parse(localStorage.getItem("path"));
-   
     const formattedStops = data.map((station, index) => {
       // Condition pour définir les détails
       if (index === 0) {
