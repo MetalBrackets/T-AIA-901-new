@@ -4,7 +4,7 @@ from collections import defaultdict
 
 # Charger le fichier CSV et construire le graphe
 def load_graph():
-    file_path = "../../students_project/timetables.csv"
+    file_path = "../../data/timetables.csv"
     data = pd.read_csv(file_path, delimiter='\t')
     graph = defaultdict(dict)
 
