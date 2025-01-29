@@ -4,7 +4,7 @@ import json
 
 
 def gareFinders(cityStart,cityEnd):
-    file_path = "../../students_project/liste-des-gares.csv"
+    file_path = "../../data/liste-des-gares.csv"
     data = pd.read_csv(file_path, delimiter=';')
 
     
@@ -27,12 +27,7 @@ def gareFinders(cityStart,cityEnd):
         if row['COMMUNE'] == cityEndUpper:
             gareEndList.append("Gare de " + row['LIBELLE'])
 
-
-    
-
-
-
-    file_path = "../../students_project/timetables.csv"
+    file_path = "../../data/timetables.csv"
     dataTravel = pd.read_csv(file_path, delimiter='\t')
 
     gareStartListExist = []
