@@ -7,6 +7,7 @@ import speech_recognition as sr
 
 from predict_departure_and_destination import process_sentence
 from gareFinder import gareFinders  
+from langdetect import detect
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:5000/api/v1/"}})
@@ -29,6 +30,8 @@ def travel():
         return jsonify({'error': f'Impossible de convertir l\'audio'}), 400
     
     recognizer = sr.Recognizer()
+
+
     try:
         with sr.AudioFile("output.wav") as source:
             audio = recognizer.record(source)
@@ -39,11 +42,17 @@ def travel():
         return jsonify({'error': f'Erreur de reconnaissance vocale'}), 500
     except Exception as e:
         return jsonify({'error': f'Erreur lors du traitement de l\'audio'}), 500
-
+    
+    if detect(text) != 'fr':
+        return jsonify({'error': 'Le texte n\'est pas en français'}), 400
+    
     try:
         result = process_sentence(1, text)
     except Exception as e:
         return jsonify({'error': f'Erreur lors du traitement de la phrase'}), 500
+
+    if "Departure" not in result or "Destination" not in result:
+        return jsonify({'error': f'Le trajet n\'est pas un voyage'}), 400
 
     try:
         traject = gareFinders(result["Departure"], result["Destination"])
