@@ -42,11 +42,11 @@ def travel():
         return jsonify({'error': f'Erreur de reconnaissance vocale'}), 500
     except Exception as e:
         return jsonify({'error': f'Erreur lors du traitement de l\'audio'}), 500
-    
     try:
         result = process_sentence(1, text)
     except Exception as e:
         return jsonify({'error': f'Erreur lors du traitement de la phrase'}), 500
+    print(result)
     
     print(result)
 
