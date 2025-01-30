@@ -48,13 +48,14 @@ def travel():
     except Exception as e:
         return jsonify({'error': f'Erreur lors du traitement de la phrase'}), 500
     
-    if 'Code' in result:
-        if result['Code'] == 'NOT_TRIP':
-            return jsonify({'error': 'La phrase ne contient pas de trajet'}), 400
-        if result['Code'] == 'NOT_FRENCH':
-            return jsonify({'error': 'La phrase n\'est pas en français'}), 400
-        if result['Code'] == 'UNKNOWN':
-            return jsonify({'error': 'Erreur inconnue'}), 500
+    print(result)
+
+    if result['Code'] == 'NOT_TRIP':
+        return jsonify({'error': 'La phrase ne contient pas de trajet'}), 400
+    if result['Code'] == 'NOT_FRENCH':
+        return jsonify({'error': 'La phrase n\'est pas en français'}), 400
+    if result['Code'] == 'UNKNOWN':
+        return jsonify({'error': 'Erreur inconnue'}), 500
 
     try:
         traject = gareFinders(result["Departure"], result["Destination"])
