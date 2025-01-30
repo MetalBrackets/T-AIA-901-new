@@ -27,9 +27,14 @@ npm run dev
 ```
 cd /back/API
 python -m venv env
+```
+For Windows OS
+```
 source env/Scripts/activate
+```
+For Linux OS or Venv
+```
 source env/bin/activate
-
 ```
 
 For notebook: Kernel -> choose Python 3.11
