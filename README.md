@@ -1,58 +1,51 @@
 # T-AIA-901
 
-## Information de projet
+## Projects
 
 📁 [Repository](https://github.com/MetalBrackets/T-AIA-901-new)  
 📁 [Mirror](https://github.com/EpitechMscProPromo2025/T-AIA-901-NAN_3)
 
-## Front
+## Launch the app
 
-### Install Dependencies
+Front
 
-```
+```sh
+# Install Dependencies
  cd /front
  npm install
+
+ # Start Project
+ npm run dev
 ```
 
-### Start Project
+Back
 
-```
-npm run dev
-```
-
-## Back
-
-### Setup Virtual Env
-
-```
+```sh
+# Setup Virtual Env
 cd /back/API
 python -m venv env
-```
-For Windows OS
-```
+
+# For Windows OS
 source env/Scripts/activate
-```
-For Linux OS or Venv
-```
+
+# For Linux OS or Venv
 source env/bin/activate
-```
 
-For notebook: Kernel -> choose Python 3.11
-
-### Install Dependencies
-
-```
+# Install Dependencies
 pip install -r requirements.txt
-```
 
-/!\ windows, install executable ffmpeg-master-latest-win64-gpl.zip
-: https://github.com/BtbN/FFmpeg-Builds/releases
+# For notebook: Kernel -> choose Python 3.11
 
-### Start Project
+# /!\ windows, install executable ffmpeg-master-latest-win64-gpl.zip
+# https://github.com/BtbN/FFmpeg-Builds/releases
 
-```
+# Start Project
 python app.py
 ```
+
+### Speech to text
+
+🔬 Voir le resultat de [l'étude comparative](./_documentation/etude_stt.md)
 
 ### The specifications of the NER classification model
 
@@ -64,9 +57,12 @@ python app.py
    `sentenceID, Departure, Destination`
 
 ```
- note :
+ Note :
 - Relationships between words that can be at the beginning or end of a sequence
-- understanding of a departure and an arrival (with waypoints in negative)
-- understanding of compound nouns, e.g.: Port-Boulet
-- differentiate a city from a first name, e.g.: Albert
+- understanding of a departure and an arrival
+- understanding of compound nouns, ex: Port-Boulet
+- differentiate a city from a first name, ex: Albert
 ```
+
+Choix du modèle final - Bert base fr  
+🔬 Voir le resultat de [l'étude des entrainements des NER](./_documentation/etude_ner.md)
